@@ -932,7 +932,7 @@
       (net 14 "/D-") (pinfunction "Pin_3") (pintype "passive") (tstamp dca8ce62-7aeb-44b9-a243-1b2f22657399))
     (pad "4" thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 15 "/D+") (pinfunction "Pin_4") (pintype "passive") (tstamp 7cdb218f-f3fa-476f-85b4-bad82829523a))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1148,7 +1148,7 @@
       (net 14 "/D-") (pinfunction "Pin_3") (pintype "passive") (tstamp dca8ce62-7aeb-44b9-a243-1b2f22657399))
     (pad "4" thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 15 "/D+") (pinfunction "Pin_4") (pintype "passive") (tstamp 7cdb218f-f3fa-476f-85b4-bad82829523a))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1321,7 +1321,7 @@
       (net 14 "/D-") (pinfunction "Pin_3") (pintype "passive") (tstamp 7e2b7ace-22ab-4a21-9c76-9ba0c07529bd))
     (pad "4" thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 15 "/D+") (pinfunction "Pin_4") (pintype "passive") (tstamp f624e442-2273-44b6-9b40-3bbee7a840d9))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2072,7 +2072,7 @@
       (net 14 "/D-") (pinfunction "Pin_3") (pintype "passive") (tstamp 7e2b7ace-22ab-4a21-9c76-9ba0c07529bd))
     (pad "4" thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 15 "/D+") (pinfunction "Pin_4") (pintype "passive") (tstamp f624e442-2273-44b6-9b40-3bbee7a840d9))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
