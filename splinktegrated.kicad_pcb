@@ -255,7 +255,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/c108e3b1-5902-49ed-8fb7-869b93cd9957")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J13" (at 0 -1.695) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp faa206ee-d0b0-4c1f-b27e-b1f306821ddb)
@@ -610,7 +610,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/a9f2e79d-a33d-418b-825e-534eadb6ff8e")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J11" (at 2.54 -13.97 180) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 48d1e52a-2236-4c12-94d5-ffccc100ea49)
@@ -705,7 +705,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/bd7aa977-0679-474b-8d61-d81fd6aed2f9")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J7" (at 0 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 47fe60d4-1909-402c-99e4-976fe3b98fdb)
@@ -1082,7 +1082,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/95e669ed-a642-4381-9630-64c363821dfe")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J8" (at 0 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 314bc950-fecc-4591-9b83-c16d2834e58d)
@@ -1387,7 +1387,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/9bda5534-fc02-4cd6-a21d-37e0c7efb524")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J3" (at 0 -2.33 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dddf2af8-7d8a-492e-be38-4ee6bf63d57e)
@@ -1646,7 +1646,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/94eaf08f-5b6a-42b7-b627-84c73ac82176")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J4" (at 0 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 42e2f7d8-2fd1-44ec-b809-bca7fbc0eaab)
@@ -1806,7 +1806,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/5c32c084-50f0-4a42-afbb-e6f6c1357dcc")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J2" (at 0 -2.33 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 63328849-d3f9-47d5-83e1-ecd405c643e0)
@@ -2126,7 +2126,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/fe6cfaef-c28e-4e0b-aef2-3425825f84b2")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J12" (at 0 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dadfb1e0-d9f8-4860-8adc-268524a62e1e)
@@ -2345,7 +2345,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/348d46db-adc9-492f-b64b-a34ec1d172bc")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP1" (at 0 -1.8 -270) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5f3668bc-1bb0-4e3d-8801-8ca51c4cdb5b)
@@ -2531,7 +2531,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/1b4533a2-d5e4-4403-b2a7-a0feb02c55e1")
-    (attr smd exclude_from_pos_files)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW1" (at 0 -4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1a0e195b-9ea6-4276-96ee-3bbcb0189ba9)
@@ -2745,7 +2745,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/0fc94264-4f85-4bd0-bf70-5fc86541c23b")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J10" (at 0 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b991bb2e-7826-4684-bc9e-3dc1dbd06334)
@@ -2966,7 +2966,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/725ddd62-c356-4053-88dd-d8de16f6d111")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J9" (at 0 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 18d10f4c-d2ea-4a9e-87a5-cfa00cdd6031)
@@ -3356,7 +3356,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/6dc34b5b-7358-48dc-a2d9-deab0845a76a")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP2" (at 0 1.8 -270) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e807127d-3013-4e6e-a160-f258e33d9fb8)
@@ -3583,7 +3583,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/7131ee3d-de36-4b6f-a391-6695d97d81c2")
-    (attr smd exclude_from_pos_files)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW2" (at 0 4) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 463e71c6-e035-4ed0-9a41-c3c9633f2c78)
@@ -4275,7 +4275,7 @@
     (property "Sheetfile" "splinktegrated.kicad_sch")
     (property "Sheetname" "")
     (path "/cb4d8b56-fff0-4e32-bb68-134e4476c746")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J6" (at 2.54 13.97) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e0f591d3-de8d-436d-8e60-6065c877a507)
