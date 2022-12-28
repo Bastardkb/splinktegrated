@@ -5878,7 +5878,7 @@
   (gr_arc (start 161.690889 97.061078) (mid 161.460101 97.604329) (end 160.919811 97.841967) (layer "B.SilkS") (width 0.12) (tstamp f04c3dcc-8776-46cc-97ac-43c0d1e80189))
   (gr_line (start 161.720505 97.385159) (end 161.720504 90.560159) (layer "F.SilkS") (width 0.15) (tstamp 096dc1b7-19b3-45c0-b960-532b581f229d))
   (gr_line (start 159.149426 90.575348) (end 159.149426 97.400348) (layer "F.SilkS") (width 0.15) (tstamp 144ce3bd-85f6-4ffd-9c2c-2941e2faa6b2))
-  (gr_circle (center 141.67 138.23) (end 141.8 138.12) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 95d4fbb9-ce91-4dca-b805-97f1258e3c11))
+  (gr_circle (center 141.71 137.16) (end 141.84 137.05) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 95d4fbb9-ce91-4dca-b805-97f1258e3c11))
   (gr_line (start 159.930315 89.77927) (end 160.949426 89.77927) (layer "F.SilkS") (width 0.15) (tstamp ae7dd71c-ca1d-4baa-8bd4-5f40cd8792b3))
   (gr_poly
     (pts
