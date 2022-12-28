@@ -1,10 +1,10 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 36,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "pads": 0.5699999928474426,
@@ -27,7 +27,6 @@
       "zones": true
     },
     "visible_items": [
-      0,
       1,
       2,
       3,
@@ -44,7 +43,6 @@
       16,
       17,
       18,
-      19,
       20,
       21,
       22,
@@ -66,7 +64,7 @@
     "zone_display_mode": 1
   },
   "meta": {
-    "filename": "splinky-shield.kicad_prl",
+    "filename": "splinktegrated.kicad_prl",
     "version": 3
   },
   "project": {
