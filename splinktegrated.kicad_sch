@@ -4314,7 +4314,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x05_Female") (at 407.67 31.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 0fc94264-4f85-4bd0-bf70-5fc86541c23b)
     (property "Reference" "J10" (at 406.4 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4368,7 +4368,7 @@
   )
 
   (symbol (lib_id "Switch:SW_SPST") (at 48.895 214.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 1b4533a2-d5e4-4403-b2a7-a0feb02c55e1)
     (property "Reference" "SW1" (at 48.895 208.28 0)
       (effects (font (size 1.27 1.27)))
@@ -4653,7 +4653,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 330.2 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 348d46db-adc9-492f-b64b-a34ec1d172bc)
     (property "Reference" "JP1" (at 330.2 85.09 0)
       (effects (font (size 1.27 1.27)))
@@ -4962,7 +4962,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x04_Female") (at -62.23 69.215 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c32c084-50f0-4a42-afbb-e6f6c1357dcc)
     (property "Reference" "J2" (at -60.96 69.2149 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5163,7 +5163,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 378.46 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6dc34b5b-7358-48dc-a2d9-deab0845a76a)
     (property "Reference" "JP2" (at 378.46 86.36 0)
       (effects (font (size 1.27 1.27)))
@@ -5247,7 +5247,7 @@
   )
 
   (symbol (lib_id "Switch:SW_SPST") (at 49.53 205.105 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 7131ee3d-de36-4b6f-a391-6695d97d81c2)
     (property "Reference" "SW2" (at 49.53 198.755 0)
       (effects (font (size 1.27 1.27)))
@@ -5273,7 +5273,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x03_Female") (at 388.62 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 725ddd62-c356-4053-88dd-d8de16f6d111)
     (property "Reference" "J9" (at 389.3313 32.3278 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5541,7 +5541,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x04_Female") (at 41.91 40.005 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94eaf08f-5b6a-42b7-b627-84c73ac82176)
     (property "Reference" "J4" (at 43.18 40.0049 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5569,7 +5569,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Female") (at 368.3 60.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 95e669ed-a642-4381-9630-64c363821dfe)
     (property "Reference" "J8" (at 367.03 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5599,7 +5599,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x04_Female") (at -61.595 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bda5534-fc02-4cd6-a21d-37e0c7efb524)
     (property "Reference" "J3" (at -60.325 82.5499 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5785,7 +5785,7 @@
   )
 
   (symbol (lib_id "Connector:AudioJack4") (at 368.3 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid a9f2e79d-a33d-418b-825e-534eadb6ff8e)
     (property "Reference" "J11" (at 367.157 79.5082 0)
       (effects (font (size 1.27 1.27)))
@@ -6009,7 +6009,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Female") (at 367.03 31.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid bd7aa977-0679-474b-8d61-d81fd6aed2f9)
     (property "Reference" "J7" (at 368.3 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6068,7 +6068,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Female") (at 45.085 175.895 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c108e3b1-5902-49ed-8fb7-869b93cd9957)
     (property "Reference" "J13" (at 46.99 175.8949 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6198,7 +6198,7 @@
   )
 
   (symbol (lib_id "Connector:AudioJack4") (at 320.04 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid cb4d8b56-fff0-4e32-bb68-134e4476c746)
     (property "Reference" "J6" (at 318.897 78.2382 0)
       (effects (font (size 1.27 1.27)))
@@ -6509,7 +6509,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x04_Female") (at 42.545 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe6cfaef-c28e-4e0b-aef2-3425825f84b2)
     (property "Reference" "J12" (at 43.815 53.3399 0)
       (effects (font (size 1.27 1.27)) (justify left))
