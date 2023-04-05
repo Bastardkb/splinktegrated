@@ -17,7 +17,7 @@
     "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
-      "footprints": false,
+      "footprints": true,
       "graphics": true,
       "keepouts": true,
       "lockedItems": true,
@@ -59,13 +59,12 @@
       29,
       30,
       32,
-      33,
       34,
       35,
       36
     ],
     "visible_layers": "ff03fff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "splinktegrated.kicad_prl",
