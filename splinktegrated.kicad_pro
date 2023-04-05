@@ -177,6 +177,8 @@
       "track_widths": [
         0.0,
         0.0,
+        0.0,
+        0.13,
         0.16,
         0.2,
         0.25,
@@ -430,7 +432,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.16,
+        "clearance": 0.13,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -440,14 +442,14 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.16,
+        "track_width": 0.13,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.13,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -457,7 +459,7 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.3,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -468,7 +470,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VBUS"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
