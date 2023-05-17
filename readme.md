@@ -9,6 +9,9 @@ It is based on the [0xB2 Splinky](https://github.com/plut0nium/0xB2) by plut0niu
 Features:
 
 - designed for assembly with off-the-shelf components at JLC
+- connectors for up to 5 rows and 6 columns
+- connectors for a trackball
+- 2 holes for M4 screws
 - ESD protection on USB and serial line
 - 16MB memory
 - footprint for audio jack and reset button
