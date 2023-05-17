@@ -21,3 +21,5 @@ How to order:
 - order in standard 1.6mm thickness  
 
 ## License
+
+CERN Open Hardware Licence Version 2 - Strongly Reciprocal
