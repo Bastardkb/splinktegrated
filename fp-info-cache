@@ -1,4 +1,4 @@
-21470008563172631
+21473401250988157
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60396,11 +60396,18 @@ Through hole pin header THT 1x06 2.54mm single row
 6
 6
 Library
+MountingHole_4mm_Pad_Via
+Mounting Hole 2.7mm
+mounting hole 2.7mm
+0
+9
+1
+Library
 PinHeader_1x04_P2.54mm_Vertical_USB
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
 Through hole pin header THT 1x04 2.54mm single row
 0
-4
+8
 4
 Library
 header1x03
@@ -89627,6 +89634,13 @@ Headphones with microphone connector, 3.5mm, 4 pins (http://www.qingpu-electroni
 0
 4
 3
+drawings
+MountingHole_3mm_Pad_Via
+Mounting Hole 2.7mm
+mounting hole 2.7mm
+0
+9
+1
 drawings
 PinHeader_1x02_P1.27mm_Vertical
 Through hole straight pin header, 1x02, 1.27mm pitch, single row
