@@ -1559,50 +1559,42 @@
     (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J3" (at 0 -2.33 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp eccf6fa5-2263-4823-b08c-39dc594a583a)
+      (tstamp 00fc7d17-4b63-4f7e-bfa5-f5968ebb7654)
     )
     (fp_text value "NA_Conn_01x04_Female" (at 0 9.95 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp ccd2f1e6-8d45-4d3c-97f6-65967d81a580)
+      (tstamp e0655e99-d41e-4a85-b587-c75ac81d1ece)
     )
     (fp_text user "${REFERENCE}" (at 0 3.81) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 9b29431b-c814-426d-b77d-166d59ee1bd6)
+      (tstamp 24510c03-2a43-45be-803e-1fa6941b9a8a)
     )
     (fp_line (start -1.8 -1.8) (end -1.8 9.4)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 90502292-bcb8-4a61-811d-834e99a83af8))
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 5d8a2425-c26d-45b0-8fc3-0996563eb75f))
     (fp_line (start -1.8 9.4) (end 1.8 9.4)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a9375dfa-d0d5-41a3-bce9-79a4dea26ff4))
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 1702cae9-6fc1-4e61-aca2-bc3c0c86cace))
     (fp_line (start 1.8 -1.8) (end -1.8 -1.8)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 98aba0b3-877c-466b-8879-b3fa7918e71a))
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 30af90cf-1b83-45df-aa3a-149815b281f6))
     (fp_line (start 1.8 9.4) (end 1.8 -1.8)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 5f7dc132-fc9b-4835-a471-9427fd1ecd8d))
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp c8c9adb5-740f-4f41-9e05-a2523a78eaac))
     (fp_line (start -1.27 -0.635) (end -0.635 -1.27)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 6685b697-826c-4feb-b99c-5688d9ec4c9f))
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d8268579-f388-4ff9-8eb1-f19ee8bc1ca4))
     (fp_line (start -1.27 8.89) (end -1.27 -0.635)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ba77715e-f451-42e7-a8f6-d9403cbb13e9))
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d50718a5-4e19-453a-a89b-c54ba47b7e32))
     (fp_line (start -0.635 -1.27) (end 1.27 -1.27)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ac6476e0-2279-49d8-b819-f411584949d1))
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 10f6c27a-eeac-428a-b256-051be1079964))
     (fp_line (start 1.27 -1.27) (end 1.27 8.89)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 07a197ec-cd32-4082-81a3-6f27d5e6090f))
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 7e2bce39-eef0-4f2e-8042-8dbff516ae77))
     (fp_line (start 1.27 8.89) (end -1.27 8.89)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8fc5ca41-e8e1-4da2-96a1-423eda634e74))
-    (pad "1" thru_hole roundrect (at 0 0 270) (size 1.1 1.1) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25)
-      (net 65 "/Vbus_daughter") (pinfunction "Pin_1") (pintype "passive") (tstamp 56c791fb-13ea-464e-bff6-5a73fd1ab309))
-    (pad "1" smd rect (at 0 0 270) (size 1.7 1.7) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 65 "/Vbus_daughter") (pinfunction "Pin_1") (pintype "passive") (tstamp 66782c41-19a6-427b-9353-51d54bf9fccb))
-    (pad "2" thru_hole oval (at 0 2.54 270) (size 1.1 1.1) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 66 "/Gnd_daughter") (pinfunction "Pin_2") (pintype "passive") (tstamp f9db80f9-7542-473a-826b-4ff985205286))
-    (pad "2" smd oval (at 0 2.54 270) (size 1.7 1.7) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 66 "/Gnd_daughter") (pinfunction "Pin_2") (pintype "passive") (tstamp 40b64ce8-208a-40b9-87fc-289fe27d30d8))
-    (pad "3" thru_hole oval (at 0 5.08 270) (size 1.1 1.1) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 64 "/D-_daughter") (pinfunction "Pin_3") (pintype "passive") (tstamp 772627a3-f0d7-4742-aabb-2feae77d8441))
-    (pad "3" smd oval (at 0 5.08 270) (size 1.7 1.7) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 64 "/D-_daughter") (pinfunction "Pin_3") (pintype "passive") (tstamp dfe8899e-0786-407d-9878-1259627389d7))
-    (pad "4" thru_hole oval (at 0 7.62 270) (size 1.1 1.1) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 63 "/D+_daughter") (pinfunction "Pin_4") (pintype "passive") (tstamp b10de4cb-99ed-48e5-836c-e63b5dbcf2e8))
-    (pad "4" smd oval (at 0 7.62 270) (size 1.7 1.7) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 63 "/D+_daughter") (pinfunction "Pin_4") (pintype "passive") (tstamp 185af68c-c075-4a6e-8617-fe4ec043b372))
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f322127f-eced-4f71-8731-22a17214ca57))
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "B.Mask")
+      (net 65 "/Vbus_daughter") (pinfunction "Pin_1") (pintype "passive") (tstamp e55b6b4e-8664-46c9-93c3-248036ead9e7))
+    (pad "2" thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "B.Mask")
+      (net 66 "/Gnd_daughter") (pinfunction "Pin_2") (pintype "passive") (tstamp c9466421-47c3-44f2-b1a5-625613c883cb))
+    (pad "3" thru_hole oval (at 0 5.08 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "B.Mask")
+      (net 64 "/D-_daughter") (pinfunction "Pin_3") (pintype "passive") (tstamp 53649351-7e55-4645-9fa4-f8a3740e67a6))
+    (pad "4" thru_hole oval (at 0 7.62 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "B.Mask")
+      (net 63 "/D+_daughter") (pinfunction "Pin_4") (pintype "passive") (tstamp e8f7265e-faac-402f-8cf6-5e2e67f98909))
   )
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
@@ -2013,50 +2005,42 @@
     (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J2" (at 0 -2.33 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp c45c275b-6c35-442f-afa8-8ac615c645f7)
+      (tstamp 6c5d1e7f-bd72-4e60-a910-821c851d251b)
     )
     (fp_text value "NA_Conn_01x04_Female" (at 0 9.95 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 6f65804c-d219-42f7-b56a-ad64b984d261)
+      (tstamp c2b0b23f-0fb0-438a-beb2-c651d962872b)
     )
     (fp_text user "${REFERENCE}" (at 0 3.81) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 4af45289-1d9f-4b70-9e30-7de844391483)
+      (tstamp 339c93f1-4d5d-4e6d-83e4-89eb51d1fe6b)
     )
     (fp_line (start -1.8 -1.8) (end -1.8 9.4)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp f4d8a1b1-5ab7-4ffd-a800-cb9aa16d6d17))
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 7314295c-9404-4f1b-b5d9-91154efc96ee))
     (fp_line (start -1.8 9.4) (end 1.8 9.4)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 1c92337b-1b7d-4d3a-8e6b-375d63c623f1))
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 86439460-5082-4c78-9740-08a3e2046573))
     (fp_line (start 1.8 -1.8) (end -1.8 -1.8)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 880c20aa-98d2-4bf5-b59f-f0e03a6b0ec9))
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp dd043470-519b-43c2-848b-4d01bd6dd622))
     (fp_line (start 1.8 9.4) (end 1.8 -1.8)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp e5b6334c-c487-4485-8aea-911d92a65007))
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 93b06eff-2b15-43b4-a7a8-26629a331de6))
     (fp_line (start -1.27 -0.635) (end -0.635 -1.27)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 399296e9-30b5-4fef-88e1-6e1143723f6d))
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 765a904e-fe95-4766-aa24-9c4046816e9f))
     (fp_line (start -1.27 8.89) (end -1.27 -0.635)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 35b7914b-27c6-44aa-a657-bc3970b8364e))
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ecece9cf-212e-4fdb-9b59-b3db367d12a5))
     (fp_line (start -0.635 -1.27) (end 1.27 -1.27)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c55e3e5c-89ff-4b9c-a086-9630f9b69db2))
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 3ad6d6d8-3946-4f33-a5f4-9de6f5c20a0f))
     (fp_line (start 1.27 -1.27) (end 1.27 8.89)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e0a94162-3379-4bbd-8b17-de3f87b2fc08))
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 539ce471-c7a8-4dd7-a1a3-9b90e1a63610))
     (fp_line (start 1.27 8.89) (end -1.27 8.89)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 21d514d8-d19c-483d-aa23-b0c8dada0f05))
-    (pad "1" thru_hole roundrect (at 0 0 270) (size 1.1 1.1) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25)
-      (net 65 "/Vbus_daughter") (pinfunction "Pin_1") (pintype "passive") (tstamp a1f5d368-d83a-41d2-a945-58f0e8cc1396))
-    (pad "1" smd rect (at 0 0 270) (size 1.7 1.7) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 65 "/Vbus_daughter") (pinfunction "Pin_1") (pintype "passive") (tstamp 21c65ff4-43bc-4f3b-a817-3e4c024d8784))
-    (pad "2" thru_hole oval (at 0 2.54 270) (size 1.1 1.1) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 66 "/Gnd_daughter") (pinfunction "Pin_2") (pintype "passive") (tstamp 810bb424-274a-42d2-afa2-1dbb01db0488))
-    (pad "2" smd oval (at 0 2.54 270) (size 1.7 1.7) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 66 "/Gnd_daughter") (pinfunction "Pin_2") (pintype "passive") (tstamp 1e3ea212-6f36-41c0-ad7f-c4f1adfa8b4e))
-    (pad "3" thru_hole oval (at 0 5.08 270) (size 1.1 1.1) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 64 "/D-_daughter") (pinfunction "Pin_3") (pintype "passive") (tstamp eba10126-0b45-4e9f-9459-39cbdac8084f))
-    (pad "3" smd oval (at 0 5.08 270) (size 1.7 1.7) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 64 "/D-_daughter") (pinfunction "Pin_3") (pintype "passive") (tstamp 716b8a34-df6b-4e79-a6ed-faf98a1d5d35))
-    (pad "4" thru_hole oval (at 0 7.62 270) (size 1.1 1.1) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 63 "/D+_daughter") (pinfunction "Pin_4") (pintype "passive") (tstamp c8464951-ba6a-4795-8a50-0d2b2b6e97d6))
-    (pad "4" smd oval (at 0 7.62 270) (size 1.7 1.7) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 63 "/D+_daughter") (pinfunction "Pin_4") (pintype "passive") (tstamp ec9bc085-d402-4163-a293-d4f591298215))
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 854a343d-2b37-452d-8802-d344a6cd3f4c))
+    (pad "1" thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "B.Mask")
+      (net 65 "/Vbus_daughter") (pinfunction "Pin_1") (pintype "passive") (tstamp 5ebefdf0-0e1c-4a97-8450-e442454c7a88))
+    (pad "2" thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "B.Mask")
+      (net 66 "/Gnd_daughter") (pinfunction "Pin_2") (pintype "passive") (tstamp f57914c0-a896-4544-8153-b1fa0c683fec))
+    (pad "3" thru_hole oval (at 0 5.08 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "B.Mask")
+      (net 64 "/D-_daughter") (pinfunction "Pin_3") (pintype "passive") (tstamp a1ea29d7-dbec-4c13-b6ad-8832a7820742))
+    (pad "4" thru_hole oval (at 0 7.62 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "B.Mask")
+      (net 63 "/D+_daughter") (pinfunction "Pin_4") (pintype "passive") (tstamp 0191de0c-013a-4a42-9a9e-8cc051c9d4be))
   )
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
@@ -4571,7 +4555,7 @@
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp fd327c68-2761-4355-a383-76351fecda5b))
   (gr_text "C1" (at 152.093454 121.75) (layer "B.SilkS") (tstamp 08f6e11c-e4d2-4ee6-b77d-17ef601e2d8e)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "C1" -0
+    (render_cache "C1" 0
       (polygon
         (pts
           (xy 151.711458 120.838675)          (xy 151.702873 120.838741)          (xy 151.694458 120.838941)          (xy 151.686215 120.839273)
@@ -4652,7 +4636,7 @@
   )
   (gr_text "3.3V" (at 148 114.2) (layer "B.SilkS") (tstamp 0e82b642-d370-4607-ba49-be84225adc9f)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "3.3V" -0
+    (render_cache "3.3V" 0
       (polygon
         (pts
           (xy 147.747941 113.30626)          (xy 147.739347 113.30636)          (xy 147.730905 113.30666)          (xy 147.722616 113.30716)
@@ -4849,7 +4833,7 @@
   )
   (gr_text "R3" (at 156.353916 116.55) (layer "B.SilkS") (tstamp 1176c8ce-e8ed-428e-a480-3a0a9d452466)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "R3" -0
+    (render_cache "R3" 0
       (polygon
         (pts
           (xy 156.241955 116.414)          (xy 156.135465 116.414)          (xy 156.135465 116.088863)          (xy 156.015688 116.088863)
@@ -4977,7 +4961,7 @@
   )
   (gr_text "C5" (at 156.353916 121.65) (layer "B.SilkS") (tstamp 15fd938c-7998-43b1-a81e-e70c34a4aee0)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "C5" -0
+    (render_cache "C5" 0
       (polygon
         (pts
           (xy 155.97192 120.738675)          (xy 155.963335 120.738741)          (xy 155.95492 120.738941)          (xy 155.946677 120.739273)
@@ -5109,7 +5093,7 @@
   )
   (gr_text "R4" (at 156.353916 114) (layer "B.SilkS") (tstamp 1d342782-0413-459d-9ca2-348a69a4ddb4)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "R4" -0
+    (render_cache "R4" 0
       (polygon
         (pts
           (xy 156.241955 113.864)          (xy 156.135465 113.864)          (xy 156.135465 113.538863)          (xy 156.015688 113.538863)
@@ -5392,7 +5376,7 @@
   )
   (gr_text "R1" (at 152.093454 116.65) (layer "B.SilkS") (tstamp 368cd5a4-d8a4-4f9d-ba27-097a1bbc307f)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "R1" -0
+    (render_cache "R1" 0
       (polygon
         (pts
           (xy 151.981493 116.514)          (xy 151.875003 116.514)          (xy 151.875003 116.188863)          (xy 151.755226 116.188863)
@@ -7303,7 +7287,7 @@
   )
   (gr_text "C6" (at 156.353916 124.2) (layer "B.SilkS") (tstamp 528c6d3a-a47a-47da-ac77-0de4d7eb9795)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "C6" -0
+    (render_cache "C6" 0
       (polygon
         (pts
           (xy 155.97192 123.288675)          (xy 155.963335 123.288741)          (xy 155.95492 123.288941)          (xy 155.946677 123.289273)
@@ -7471,7 +7455,7 @@
   )
   (gr_text "L" (at 148.695464 87.2) (layer "B.SilkS") (tstamp 645d4e02-3e55-463d-afe3-d180542291bf)
     (effects (font (face "Fira Sans") (size 1.5 1.5) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "L" -0
+    (render_cache "L" 0
       (polygon
         (pts
           (xy 148.285868 85.514713)          (xy 148.285868 86.780868)          (xy 147.691625 86.780868)          (xy 147.714706 86.945)
@@ -7614,7 +7598,7 @@
   )
   (gr_text "TRCK" (at 150.55 112.3) (layer "B.SilkS") (tstamp 7385c3df-c297-41d7-b3d3-0aba8f365344)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "TRCK" -0
+    (render_cache "TRCK" 0
       (polygon
         (pts
           (xy 149.982184 111.40118)          (xy 149.993321 111.488717)          (xy 150.207278 111.488717)          (xy 150.207278 112.164)
@@ -7745,7 +7729,7 @@
   )
   (gr_text "SC" (at 148 121.82) (layer "B.SilkS") (tstamp 73bb18f6-8815-4f5a-92c2-97529e0d866e)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "SC" -0
+    (render_cache "SC" 0
       (polygon
         (pts
           (xy 147.697529 120.908675)          (xy 147.687969 120.908758)          (xy 147.678582 120.909008)          (xy 147.669369 120.909424)
@@ -7914,7 +7898,7 @@
   )
   (gr_text "R5" (at 156.353916 126.75) (layer "B.SilkS") (tstamp 87bc9553-1eb5-4660-bb61-049231313f7f)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "R5" -0
+    (render_cache "R5" 0
       (polygon
         (pts
           (xy 156.241955 126.614)          (xy 156.135465 126.614)          (xy 156.135465 126.288863)          (xy 156.015688 126.288863)
@@ -8015,7 +7999,7 @@
   )
   (gr_text "3.3V" (at 138.6 104.2) (layer "B.SilkS") (tstamp 96ea894b-715d-4419-ba35-9c25eae6ca9b)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "3.3V" -0
+    (render_cache "3.3V" 0
       (polygon
         (pts
           (xy 138.347941 103.30626)          (xy 138.339347 103.30636)          (xy 138.330905 103.30666)          (xy 138.322616 103.30716)
@@ -8212,7 +8196,7 @@
   )
   (gr_text "C2" (at 152.093454 119.2) (layer "B.SilkS") (tstamp a0bd0a09-f382-4315-957b-9ddc39685ecd)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "C2" -0
+    (render_cache "C2" 0
       (polygon
         (pts
           (xy 151.711458 118.288675)          (xy 151.702873 118.288741)          (xy 151.694458 118.288941)          (xy 151.686215 118.289273)
@@ -8349,7 +8333,7 @@
   )
   (gr_text "GND" (at 138.6 106.75) (layer "B.SilkS") (tstamp b594c796-8d54-4c0b-8cad-7f8d2d2d4afb)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "GND" -0
+    (render_cache "GND" 0
       (polygon
         (pts
           (xy 138.203545 105.838675)          (xy 138.194511 105.838752)          (xy 138.185632 105.838983)          (xy 138.176908 105.839369)
@@ -8512,7 +8496,7 @@
   )
   (gr_text "C3" (at 152.093454 114.1) (layer "B.SilkS") (tstamp b7a50c00-4339-4860-b0eb-c4e16c2c5920)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "C3" -0
+    (render_cache "C3" 0
       (polygon
         (pts
           (xy 151.711458 113.188675)          (xy 151.702873 113.188741)          (xy 151.694458 113.188941)          (xy 151.686215 113.189273)
@@ -8671,7 +8655,7 @@
   )
   (gr_text "MATRIX" (at 158.5 112.3) (layer "B.SilkS") (tstamp bfd528fa-08a4-4cc5-8e2e-c645337a9505)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "MATRIX" -0
+    (render_cache "MATRIX" 0
       (polygon
         (pts
           (xy 157.698101 112.164)          (xy 157.801074 112.164)          (xy 157.828039 111.82245)          (xy 157.829075 111.809987)
@@ -8764,7 +8748,7 @@
   )
   (gr_text "SS" (at 148 116.74) (layer "B.SilkS") (tstamp c472398d-355f-4574-9751-01ffff86407a)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "SS" -0
+    (render_cache "SS" 0
       (polygon
         (pts
           (xy 147.697529 115.828675)          (xy 147.687969 115.828758)          (xy 147.678582 115.829008)          (xy 147.669369 115.829424)
@@ -8957,7 +8941,7 @@
   )
   (gr_text "C4" (at 156.353916 119.1) (layer "B.SilkS") (tstamp d9f9db4f-6018-4912-b2d8-4c3446909cf7)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "C4" -0
+    (render_cache "C4" 0
       (polygon
         (pts
           (xy 155.97192 118.188675)          (xy 155.963335 118.188741)          (xy 155.95492 118.188941)          (xy 155.946677 118.189273)
@@ -9071,7 +9055,7 @@
   )
   (gr_text "R2" (at 152.093454 124.3) (layer "B.SilkS") (tstamp efd9910e-604b-42b2-9175-0074ca473d2a)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "R2" -0
+    (render_cache "R2" 0
       (polygon
         (pts
           (xy 151.981493 124.164)          (xy 151.875003 124.164)          (xy 151.875003 123.838863)          (xy 151.755226 123.838863)
@@ -9177,7 +9161,7 @@
   )
   (gr_text "MI" (at 148 124.36) (layer "B.SilkS") (tstamp f1452718-c15b-41ad-914d-959db96a49bf)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "MI" -0
+    (render_cache "MI" 0
       (polygon
         (pts
           (xy 147.198101 124.224)          (xy 147.301074 124.224)          (xy 147.328039 123.88245)          (xy 147.329075 123.869987)
@@ -9625,7 +9609,7 @@
   )
   (gr_text "GND" (at 148 126.9) (layer "B.SilkS") (tstamp f55629fb-954d-4fe6-b3ab-6cfada99497c)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "GND" -0
+    (render_cache "GND" 0
       (polygon
         (pts
           (xy 147.603545 125.988675)          (xy 147.594511 125.988752)          (xy 147.585632 125.988983)          (xy 147.576908 125.989369)
@@ -9788,7 +9772,7 @@
   )
   (gr_text "MO" (at 148 119.28) (layer "B.SilkS") (tstamp fca229fc-83ac-4bbd-8acf-63be661bfd42)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "MO" -0
+    (render_cache "MO" 0
       (polygon
         (pts
           (xy 147.198101 119.144)          (xy 147.301074 119.144)          (xy 147.328039 118.80245)          (xy 147.329075 118.789987)
@@ -9904,7 +9888,7 @@
   )
   (gr_text "RGB" (at 138.6 109.3) (layer "B.SilkS") (tstamp feb1b344-e0a5-4bf6-a2c8-05dd9020e4d8)
     (effects (font (face "Fira Sans") (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
-    (render_cache "RGB" -0
+    (render_cache "RGB" 0
       (polygon
         (pts
           (xy 138.488039 109.164)          (xy 138.381549 109.164)          (xy 138.381549 108.838863)          (xy 138.261772 108.838863)
@@ -12899,7 +12883,7 @@
   )
   (gr_text "R" (at 147.495464 87.195464) (layer "F.SilkS") (tstamp db7905cb-82b4-4c40-b776-922f5e4d5639)
     (effects (font (face "Fira Sans") (size 1.5 1.5) (thickness 0.15)) (justify left bottom))
-    (render_cache "R" -0
+    (render_cache "R" 0
       (polygon
         (pts
           (xy 148.10247 85.510276)          (xy 148.119007 85.510574)          (xy 148.135288 85.511069)          (xy 148.151313 85.511763)
