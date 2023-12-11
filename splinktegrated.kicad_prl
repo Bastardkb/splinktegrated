@@ -1,17 +1,17 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
       "pads": 0.5699999928474426,
       "tracks": 1.0,
-      "vias": 1.0,
+      "vias": 0.3400000035762787,
       "zones": 0.6
     },
     "ratsnest_display_mode": 0,
@@ -59,12 +59,13 @@
       29,
       30,
       32,
+      33,
       34,
       35,
       36
     ],
-    "visible_layers": "ff0bfff_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "ff8bd5f_ffffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "splinktegrated.kicad_prl",
