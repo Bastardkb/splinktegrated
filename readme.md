@@ -4,7 +4,7 @@ The splinktegrated is a board made for dactyls.
 
 It is based on the [0xB2 Splinky](https://github.com/plut0nium/0xB2) by plut0nium.
 
-![](pics/1.jpg)
+![](pics/2.jpg)
 
 Features:
 
@@ -16,6 +16,7 @@ Features:
 - 16MB memory
 - footprint for audio jack and reset button
 - reversible, with a jumper for power
+- FPC connectors for main plate PCB and trackball sensor PCB
 
 How to order:
 
