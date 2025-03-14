@@ -7751,12 +7751,6 @@
 		(uuid "fe9e5c74-6327-402f-85c7-0f2b93fee092")
 	)
 	(junction
-		(at 373.38 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04f1bd24-634b-44ce-bc3b-ff5cdadc0d11")
-	)
-	(junction
 		(at 354.33 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8252,16 +8246,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 113.03) (xy 373.38 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "116dc877-92a9-4465-bbaa-83f98271f236")
-	)
-	(wire
-		(pts
 			(xy -88.9 50.8) (xy -85.09 50.8)
 		)
 		(stroke
@@ -8559,16 +8543,6 @@
 			(type default)
 		)
 		(uuid "36eafae9-04f9-4913-a4fb-f89d88baedce")
-	)
-	(wire
-		(pts
-			(xy 373.38 113.03) (xy 374.65 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "372286c7-cfe1-4d88-ba3a-044f2660f75c")
 	)
 	(wire
 		(pts
@@ -9842,16 +9816,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 111.76) (xy 373.38 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abc8799d-d7fd-401b-b85b-e5a0ef020d86")
-	)
-	(wire
-		(pts
 			(xy 33.02 109.22) (xy 33.02 113.03)
 		)
 		(stroke
@@ -10272,7 +10236,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 113.03) (xy 364.49 113.03)
+			(xy 354.33 113.03) (xy 374.65 113.03)
 		)
 		(stroke
 			(width 0)
@@ -14047,71 +14011,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 373.38 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1857b0b2-9ea3-41e9-8859-476f9b35de6f")
-		(property "Reference" "#PWR047"
-			(at 373.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 373.38 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 373.38 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a335f80d-76f7-4bda-8e2a-4fc32fbffaa2")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 58.42 78.74 0)
 		(unit 1)
@@ -17343,83 +17242,6 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 368.3 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d139cc3-5e33-4fc4-a472-32ec7f4bd63d")
-		(property "Reference" "R13"
-			(at 367.1316 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120"
-			(at 364.998 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 368.3 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 368.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25079"
-			(at 368.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c737f91b-cbb4-4e11-89c7-534d6a0239e2")
-		)
-		(pin "2"
-			(uuid "f904cbdc-48b8-4c69-a368-3450db10b0b3")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -20989,83 +20811,6 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 373.38 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0d8238c-b3a3-4a10-a778-9eb2d50df3fc")
-		(property "Reference" "R14"
-			(at 370.586 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5k"
-			(at 370.84 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 375.158 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 373.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 373.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25867"
-			(at 373.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8c52206-1c0b-4c52-a55c-4fa3e3ad4343")
-		)
-		(pin "2"
-			(uuid "87ed247d-7413-440c-bb3f-cb7fc3798a08")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R14")
 					(unit 1)
 				)
 			)
