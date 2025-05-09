@@ -5648,7 +5648,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "6477f05b-1a3b-4ee5-b62c-f081d9950915")
-		(at 147.15 129.2 -90)
+		(at 147.05 128.9 -90)
 		(property "Reference" "G***"
 			(at 0 0 90)
 			(layer "F.SilkS")
@@ -6125,12 +6125,12 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "6fbaa3b3-55b6-42b4-8ccb-f99ded037ba6")
-		(at 153.35 130.95)
+		(at 153.35 130.15)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4ad40dd0-4a97-4f40-baf0-7bb32f6705fc")
+			(uuid "9198cc7c-dff4-46ea-a85a-58d680471e0b")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -6142,7 +6142,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2666ece0-bcba-44ca-8e72-0d7f70a3f7db")
+			(uuid "efaff0a9-161c-4113-acc7-eb4814d45ef3")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -6154,7 +6154,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af1ded9d-e14c-44ac-aa19-00057ef77c24")
+			(uuid "d4bd07bb-174f-4b83-92cc-7e7625f8f7d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +6166,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6fbc1385-3314-4b49-a290-a62606076f13")
+			(uuid "3d9a1af4-7c95-4a32-adf7-9d36918ef79b")
 			(effects
 				(font
 					(size 1.27 1.27)
