@@ -1,7 +1,7 @@
 (footprint "Jack_3.5mm_PJ320E_Horizontal_custom"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Headphones with microphone connector, 3.5mm, 4 pins (http://www.qingpu-electronics.com/en/products/WQP-PJ320E-177.html)")
 	(tags "3.5mm jack mic microphone phones headphones 4pins audio plug")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" "Jack_3.5mm_PJ320E_Horizontal_custom"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2cc52c7a-2f4e-4c86-bf51-0cc215dca513")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -202,7 +192,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c7e3fea6-b3fc-4cf9-b827-a81e895b972c")
 	)
@@ -216,6 +206,34 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0 270)
+		(size 1.2 0.6)
+		(drill oval 1.2 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "cdfdae74-8f9a-4180-9792-b7442b3e29f8")
+	)
+	(pad "" np_thru_hole oval
+		(at 0.1 0.75 270)
+		(size 1.2 0.6)
+		(drill oval 2.7 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "aa8e466c-69e0-45e4-9675-eec68fc34fcc")
+	)
+	(pad "" np_thru_hole oval
+		(at 4.6 0 270)
+		(size 1.2 0.6)
+		(drill oval 1.2 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "cf913460-5e2c-489c-af8c-fb4bd3276a93")
+	)
+	(pad "" np_thru_hole oval
+		(at 4.7 0.75 270)
+		(size 1.2 0.6)
+		(drill oval 2.7 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0374101a-801c-4b12-8114-89d9f4c804d6")
 	)
 	(pad "R1" thru_hole oval
 		(at 0 -4 270)
@@ -233,22 +251,31 @@
 		(remove_unused_layers no)
 		(uuid "7399dc6f-c254-4a59-843e-a5bc1c47a49f")
 	)
-	(pad "T" thru_hole rect
-		(at 0 0 270)
+	(pad "S" smd rect
+		(at 4.6 0 270)
 		(size 2 1.4)
-		(drill oval 1.2 0.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "4a731747-d1ce-4327-9136-953a76cc0157")
+		(layers "F.Cu" "F.Mask")
+		(uuid "5dd65ae7-61ef-436a-ace7-1f18f40f0c24")
 	)
-	(pad "T" thru_hole oval
-		(at 0.1 0.75 270)
+	(pad "S" smd oval
+		(at 4.7 0.75 270)
 		(size 3.5 1.4)
-		(drill oval 2.7 0.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask")
 		(uuid "8afb6952-d643-45bb-9461-4dcf63715d8c")
 	)
+	(pad "T" smd rect
+		(at 0 0 270)
+		(size 2 1.4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4a731747-d1ce-4327-9136-953a76cc0157")
+	)
+	(pad "T" smd oval
+		(at 0.1 0.75 270)
+		(size 3.5 1.4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "62cf323b-d0d5-4492-811a-6e437f2e4059")
+	)
+	(embedded_fonts no)
 	(model "${KISYS3DMOD}/Connector_Audio.3dshapes/Jack_3.5mm_PJ320E_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
