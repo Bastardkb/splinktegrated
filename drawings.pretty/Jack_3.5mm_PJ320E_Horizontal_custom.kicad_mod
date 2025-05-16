@@ -9,7 +9,7 @@
 		(at 2.54 -13.97 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "a5b3a7ec-21ba-43d0-ba2f-8e2ef4ddc71f")
+		(uuid "8b498408-a7ee-4f92-88be-1f931feb9356")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "Serial"
 		(at 2.54 5.08 180)
 		(layer "F.Fab")
-		(uuid "db7edeed-c796-408b-93ed-ef40c8a4f86c")
+		(uuid "6419f88e-7fce-4877-8811-8530ee8131f9")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ba488827-87f0-4e9b-a904-6c15f7afe32d")
+		(uuid "5cb9907d-faef-4b36-9548-4ac2bc1fd995")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "335fa14a-c486-436c-85b4-9c24e2dc7ac8")
+		(uuid "c3ce6e4a-bbc7-4fbc-8b47-99c497dc14a1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -206,6 +206,34 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0 270)
+		(size 1.2 0.6)
+		(drill oval 1.2 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "cdfdae74-8f9a-4180-9792-b7442b3e29f8")
+	)
+	(pad "" np_thru_hole oval
+		(at 0.1 0.75 270)
+		(size 1.2 0.6)
+		(drill oval 2.7 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "aa8e466c-69e0-45e4-9675-eec68fc34fcc")
+	)
+	(pad "" np_thru_hole oval
+		(at 4.6 0 270)
+		(size 1.2 0.6)
+		(drill oval 1.2 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "cf913460-5e2c-489c-af8c-fb4bd3276a93")
+	)
+	(pad "" np_thru_hole oval
+		(at 4.7 0.75 270)
+		(size 1.2 0.6)
+		(drill oval 2.7 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0374101a-801c-4b12-8114-89d9f4c804d6")
 	)
 	(pad "R1" thru_hole oval
 		(at 0 -4 270)
