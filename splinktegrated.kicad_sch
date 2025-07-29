@@ -12521,7 +12521,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5A 1206 Polyfuse"
+		(property "Value" "Polyfuse"
 			(at -140.97 30.0736 90)
 			(effects
 				(font
@@ -12529,7 +12529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "reversible-kicad-footprints:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at -146.05 25.4 0)
 			(effects
 				(font
@@ -12549,6 +12549,14 @@
 			)
 		)
 		(property "Description" ""
+			(at -140.97 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C69679"
 			(at -140.97 26.67 0)
 			(effects
 				(font
