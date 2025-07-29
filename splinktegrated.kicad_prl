@@ -31,10 +31,12 @@
     },
     "visible_items": [
       "vias",
+      "footprint_text",
       "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
+      "footprint_references",
       "tracks",
       "pads",
       "zones",

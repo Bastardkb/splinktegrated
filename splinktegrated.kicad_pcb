@@ -642,7 +642,7 @@
 		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "FB13"
-			(at 0 -1.43 90)
+			(at 0.92 -16 90)
 			(layer "F.SilkS")
 			(uuid "77390cf9-1712-4eaf-b8f9-c182a081dd85")
 			(effects
@@ -5403,7 +5403,7 @@
 		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "FB1"
-			(at 0 -1.43 0)
+			(at -40.15 1.15 0)
 			(layer "F.SilkS")
 			(uuid "eff8a0b9-b47c-4294-bf80-269d94a02fe1")
 			(effects
@@ -6284,7 +6284,7 @@
 		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "FB2"
-			(at 0 -1.43 0)
+			(at 26.35 4.35 0)
 			(layer "F.SilkS")
 			(uuid "7f9f5230-acc1-46b3-a3bf-9417335a4d14")
 			(effects
@@ -7046,7 +7046,7 @@
 		(descr "SOT666")
 		(tags "SOT-666")
 		(property "Reference" "U2"
-			(at 0 -2 90)
+			(at 2.8 -32.5125 90)
 			(layer "F.SilkS")
 			(uuid "69050b49-54e0-4d63-9a3c-7decb7d1a104")
 			(effects
@@ -8246,7 +8246,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.17 0)
+			(at -34.94 -0.35 0)
 			(layer "F.SilkS")
 			(uuid "12fedf39-e8d2-4417-b5eb-f5d9f4ee2674")
 			(effects
@@ -9979,7 +9979,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.17 0)
+			(at -32.16 -2.05 0)
 			(layer "F.SilkS")
 			(uuid "79ecd692-1a14-4232-9438-5043210f105d")
 			(effects
@@ -12180,7 +12180,7 @@
 		(descr "Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F2"
-			(at 0 -1.43 90)
+			(at -5.33 -20.75 90)
 			(layer "F.SilkS")
 			(uuid "76e2db81-37ca-43cb-82c5-45d6b26558c5")
 			(effects
@@ -12394,7 +12394,7 @@
 		(descr "SOT666")
 		(tags "SOT-666")
 		(property "Reference" "U4"
-			(at 0 -2 90)
+			(at -0.775 38.55 90)
 			(layer "F.SilkS")
 			(uuid "84ce42d4-098d-4fa3-8f46-d8a4c0a96350")
 			(effects
