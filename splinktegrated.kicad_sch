@@ -7079,18 +7079,6 @@
 		)
 		(uuid 8401ea62-7449-4141-8546-defbb0856c99)
 	)
-	(rectangle
-		(start 298.45 82.55)
-		(end 392.43 234.95)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid fa12d0e1-13de-49e6-b5ba-96b7567a7996)
-	)
 	(text "Hand"
 		(exclude_from_sim no)
 		(at 416.56 115.57 0)
@@ -7155,19 +7143,6 @@
 			(justify left bottom)
 		)
 		(uuid "15eb807e-9351-43b9-a9b6-5c2ffcd9ca58")
-	)
-	(text "Serial and protection"
-		(exclude_from_sim no)
-		(at 298.45 81.28 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "335292b5-3600-4147-bd26-f753e03af04f")
 	)
 	(text "Indicator & buttons"
 		(exclude_from_sim no)
@@ -12604,7 +12579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "reversible-kicad-footprints:L-0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at -148.59 28.448 90)
 			(effects
 				(font
@@ -12623,6 +12598,14 @@
 			)
 		)
 		(property "Description" ""
+			(at -148.59 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C98288"
 			(at -148.59 26.67 0)
 			(effects
 				(font
@@ -14247,7 +14230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "reversible-kicad-footprints:SOT-23-3"
+		(property "Footprint" "local-libraries:TSOT-23"
 			(at -45.72 27.94 0)
 			(effects
 				(font
@@ -14266,6 +14249,14 @@
 			)
 		)
 		(property "Description" ""
+			(at -43.18 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "AO3401A"
 			(at -43.18 22.86 0)
 			(effects
 				(font
@@ -15405,7 +15396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "local-libraries:D_SOD-323"
 			(at -121.92 26.67 0)
 			(effects
 				(font
@@ -15540,7 +15531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "VBUS"
 			(at 330.2 26.67 0)
 			(effects
 				(font
@@ -17644,7 +17635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "reversible-kicad-footprints:SOT-23-3"
+		(property "Footprint" "local-libraries:TSOT-23"
 			(at -134.62 29.21 0)
 			(effects
 				(font
@@ -17663,6 +17654,14 @@
 			)
 		)
 		(property "Description" ""
+			(at -132.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "AO3401A"
 			(at -132.08 24.13 0)
 			(effects
 				(font
@@ -18907,6 +18906,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2827693"
+			(at -66.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e766a6b-1568-4c0a-8434-76bd0ca3ffdd")
 		)
@@ -19024,7 +19031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "local-libraries:D_SOD-323"
 			(at -31.75 25.4 0)
 			(effects
 				(font
