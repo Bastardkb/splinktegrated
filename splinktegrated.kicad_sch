@@ -7678,6 +7678,12 @@
 		(uuid "d5e96901-25ec-4c76-be5c-fb8dd4bd410d")
 	)
 	(junction
+		(at -152.4 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d61aa529-f669-465e-a630-b0c3cce4074e")
+	)
+	(junction
 		(at 33.02 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8220,6 +8226,16 @@
 			(type default)
 		)
 		(uuid "2af0002b-5ef7-43ab-9984-b8f213436a99")
+	)
+	(wire
+		(pts
+			(xy -152.4 26.67) (xy -151.13 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5d5d94-dabd-40f3-94bd-fe3ec4a04aac")
 	)
 	(wire
 		(pts
@@ -9330,6 +9346,16 @@
 			(type default)
 		)
 		(uuid "87015e74-03a3-4d83-8190-db50053968c7")
+	)
+	(wire
+		(pts
+			(xy -152.4 21.59) (xy -152.4 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c48ee2-d8e7-4a3c-8860-f37e9977a181")
 	)
 	(wire
 		(pts
@@ -10593,7 +10619,7 @@
 	)
 	(wire
 		(pts
-			(xy -153.67 26.67) (xy -151.13 26.67)
+			(xy -153.67 26.67) (xy -152.4 26.67)
 		)
 		(stroke
 			(width 0)
@@ -20478,6 +20504,71 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at -152.4 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4b15928-a8cd-4ed3-8030-b1f6db79c174")
+		(property "Reference" "#PWR0105"
+			(at -152.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at -152.4 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -152.4 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -152.4 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -152.4 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10a6096d-1d8f-4260-aeaa-623f170ae373")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
