@@ -8056,15 +8056,6 @@
 		(at 391.16 67.31)
 		(uuid "ed50d07f-42d4-4789-8b32-ed00f8ecc305")
 	)
-	(bus_entry
-		(at 340.36 46.99)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0c55ae9-3cc8-4431-9f77-e191b3f808c8")
-	)
 	(wire
 		(pts
 			(xy -137.16 26.67) (xy -134.62 26.67)
