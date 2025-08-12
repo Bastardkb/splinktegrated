@@ -2989,6 +2989,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead_Small"
 			(pin_numbers
 				(hide yes)
@@ -7311,6 +7461,12 @@
 		(uuid "3e2f99c1-6022-44bd-8b4e-2ec4a7bf77de")
 	)
 	(junction
+		(at -134.62 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f327c53-2457-4cba-bb98-73fd5aaf8a02")
+	)
+	(junction
 		(at -27.94 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7589,6 +7745,16 @@
 	(no_connect
 		(at 391.16 67.31)
 		(uuid "ed50d07f-42d4-4789-8b32-ed00f8ecc305")
+	)
+	(wire
+		(pts
+			(xy -137.16 26.67) (xy -134.62 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002b248e-62f9-4179-9a1d-023160345228")
 	)
 	(polyline
 		(pts
@@ -8542,16 +8708,6 @@
 	)
 	(wire
 		(pts
-			(xy -118.11 26.67) (xy -114.3 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5103bbb7-4630-41f0-88b7-cc94f083ab73")
-	)
-	(wire
-		(pts
 			(xy 182.88 109.22) (xy 191.77 109.22)
 		)
 		(stroke
@@ -8982,7 +9138,7 @@
 	)
 	(wire
 		(pts
-			(xy -127 26.67) (xy -125.73 26.67)
+			(xy -121.92 26.67) (xy -116.84 26.67)
 		)
 		(stroke
 			(width 0)
@@ -9189,6 +9345,16 @@
 			(type default)
 		)
 		(uuid "8c423235-8d83-44cd-b8f4-fad0d94b79db")
+	)
+	(wire
+		(pts
+			(xy -134.62 26.67) (xy -132.08 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c801c1f-7fef-46e2-9be0-fb01e2e4d5bf")
 	)
 	(wire
 		(pts
@@ -12597,6 +12763,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at -134.62 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f3b347b")
+		(property "Reference" "D39"
+			(at -132.588 29.3116 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF5.0CA"
+			(at -132.588 31.623 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reversible-kicad-footprints:D_SOD-123"
+			(at -134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d270808f-90d7-498e-bb6c-b28d3515fd8f")
+		)
+		(pin "1"
+			(uuid "9cc81264-f411-4454-a87f-debc0128d72d")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Ferrite_Bead_Small")
 		(at -148.59 26.67 90)
 		(unit 1)
@@ -14982,7 +15216,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -132.08 19.05 180)
+		(at -127 19.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14990,7 +15224,7 @@
 		(dnp no)
 		(uuid "393c7083-3c51-4774-b85d-81e772443142")
 		(property "Reference" "#PWR045"
-			(at -132.08 12.7 0)
+			(at -127 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14999,7 +15233,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -132.207 14.6558 0)
+			(at -127.127 14.6558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15007,7 +15241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -132.08 19.05 0)
+			(at -127 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15016,7 +15250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -132.08 19.05 0)
+			(at -127 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15025,7 +15259,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -132.08 19.05 0)
+			(at -127 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15482,82 +15716,6 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at -121.92 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c4bf06a-d833-4225-ba9b-80ef885797d8")
-		(property "Reference" "D3"
-			(at -121.92 22.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B5817"
-			(at -121.285 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "local-libraries:D_SOD-323"
-			(at -121.92 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -121.92 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -121.92 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C123899"
-			(at -121.92 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d354f69-e9da-4cd5-a0ab-034f6f09b829")
-		)
-		(pin "2"
-			(uuid "2d057cc1-023f-4296-b47c-b2f58dfcf9c6")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -17727,7 +17885,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at -132.08 24.13 90)
+		(at -127 24.13 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17736,7 +17894,7 @@
 		(dnp no)
 		(uuid "985fa67f-1572-473b-9785-dc47218591e0")
 		(property "Reference" "Q4"
-			(at -132.08 32.8168 90)
+			(at -127 32.8168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17744,7 +17902,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at -132.08 30.5054 90)
+			(at -127 30.5054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17752,7 +17910,7 @@
 			)
 		)
 		(property "Footprint" "local-libraries:TSOT-23"
-			(at -134.62 29.21 0)
+			(at -129.54 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17761,7 +17919,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -132.08 24.13 0)
+			(at -127 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17770,7 +17928,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -132.08 24.13 0)
+			(at -127 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17778,7 +17936,7 @@
 			)
 		)
 		(property "LCSC" "AO3401A"
-			(at -132.08 24.13 0)
+			(at -127 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19907,6 +20065,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at -134.62 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfc25b04-7ef0-4c41-a826-ab7ecd2785ea")
+		(property "Reference" "#PWR031"
+			(at -134.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -134.776 41.2749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -134.62 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -134.62 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -134.62 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da124437-0ec6-4c70-bf02-b27bb321e9c1")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 46.99 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20638,7 +20862,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at -114.3 26.67 0)
+		(at -116.84 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20646,7 +20870,7 @@
 		(dnp no)
 		(uuid "ead23dff-62fc-433e-a88f-d8d5ad4fb9a6")
 		(property "Reference" "#PWR0106"
-			(at -114.3 30.48 0)
+			(at -116.84 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20655,7 +20879,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at -114.3 22.86 0)
+			(at -116.84 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20663,7 +20887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -114.3 26.67 0)
+			(at -116.84 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20672,7 +20896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -114.3 26.67 0)
+			(at -116.84 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20681,7 +20905,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -114.3 26.67 0)
+			(at -116.84 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

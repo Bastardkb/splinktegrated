@@ -84,7 +84,7 @@
         "hole_near_hole": "error",
         "hole_to_hole": "error",
         "holes_co_located": "warning",
-        "invalid_outline": "warning",
+        "invalid_outline": "error",
         "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
