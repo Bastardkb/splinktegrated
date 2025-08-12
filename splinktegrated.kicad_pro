@@ -637,6 +637,30 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN ",
+          "name": "MPN ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Substitute",
+          "name": "Substitute",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC Basic",
+          "name": "JLC Basic",
+          "show": false
         }
       ],
       "filter_string": "",
