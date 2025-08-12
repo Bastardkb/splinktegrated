@@ -12391,7 +12391,7 @@
 		(descr "SOT-363, SC-70-6, SC-88")
 		(tags "SOT-363 SC-70-6 SC-88")
 		(property "Reference" "U6"
-			(at 0 -2.25 90)
+			(at 0.4 -41.05 90)
 			(layer "F.SilkS")
 			(uuid "3c51e007-a348-4cac-8eb6-827b72f491ae")
 			(effects
