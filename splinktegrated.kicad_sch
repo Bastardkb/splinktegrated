@@ -7608,6 +7608,17 @@
 		)
 		(uuid "5c11d407-0aa6-475c-b4b2-7a7e4cbd937b")
 	)
+	(text "The datasheet of the SK6815 Mini-E mentions that:\n- Vdd > 3.7V, hence we use the Vbus here which is around 4.7V\n- Vih >= 0.7*Vdd = 0.7*4.7 = 3.29V\n\nTechnically here Vih is at 3.3V as it's output by the RP2040. But as a precaution, we shift it to the VBus levels.\n\nVin: logic input voltage\nVdd: power supply\nVih: input signal flip treshold"
+		(exclude_from_sim no)
+		(at 310.642 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "656c5978-9de0-4fc4-9b81-452976664498")
+	)
 	(text "Voltage regulation"
 		(exclude_from_sim no)
 		(at 17.78 96.52 0)
@@ -7620,6 +7631,17 @@
 			(justify left bottom)
 		)
 		(uuid "6616589e-aeaa-4ebb-8a48-69fe013ff4f5")
+	)
+	(text "- Transistor for protection against shorts between power and Gnd (reverse polarity)\n- TVS diode against power surges\n- U2 for ESD protection\n\nOn the serial port, we use a TVS diode instead of Zener (on the main connector)\nto avoid power drop, as power would have to go through 2 Zener - one reversed."
+		(exclude_from_sim no)
+		(at -189.484 136.652 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7fba2cf6-15f6-4ee5-bd1e-30ae33ed3cd6")
 	)
 	(text "RowCol FPC Connector"
 		(exclude_from_sim no)
