@@ -14285,6 +14285,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C479750"
+			(at 436.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a4c08eb-d864-412a-a151-9c4e184184be")
 		)
@@ -14807,6 +14815,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C190862"
+			(at 243.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16720,6 +16736,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2827693"
+			(at 453.39 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "edf7a6b4-a3e3-40f4-adf6-6c8d858a0204")
 		)
@@ -16754,7 +16778,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5f4f43b6-90d1-41da-bc8f-eea692c90ef3")
 		(property "Reference" "J13"
 			(at 430.53 87.6299 0)
@@ -16866,7 +16890,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C223907"
+		(property "LCSC" "C963373"
 			(at -104.14 48.26 0)
 			(effects
 				(font
@@ -18262,7 +18286,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8a591f73-f847-40c8-9d03-7766d85fde4c")
 		(property "Reference" "J15"
 			(at 430.53 90.1699 0)
@@ -18617,7 +18641,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "970ee60c-2f58-46f3-9992-4f817b4b2824")
 		(property "Reference" "J17"
 			(at 430.53 95.2499 0)
@@ -19302,6 +19326,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C479750"
+			(at 396.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ddc4eddf-f7bf-43d0-8a64-99ed2a8a9f65")
 		)
@@ -19500,7 +19532,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "acd1b746-b53e-493a-944a-a23419fee66c")
 		(property "Reference" "J16"
 			(at 430.53 92.7099 0)
@@ -20181,6 +20213,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C2827693"
+			(at 143.51 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
