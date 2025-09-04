@@ -24267,7 +24267,7 @@
 			)
 		)
 	)
-	(gr_text "SPLINKTEGRATED REV 2.`"
+	(gr_text "SPLINKTEGRATED REV 2.1"
 		(at 158.9 90 90)
 		(layer "B.SilkS")
 		(uuid "37db5f76-8e2c-41f8-bb30-b6b8eaec3736")
@@ -24281,7 +24281,7 @@
 			)
 			(justify left bottom mirror)
 		)
-		(render_cache "SPLINKTEGRATED REV 2.`" 90
+		(render_cache "SPLINKTEGRATED REV 2.1" 90
 			(polygon
 				(pts
 					(xy 157.735992 90.60102) (xy 157.739804 90.67189) (xy 157.750412 90.731004) (xy 157.766828 90.780172)
@@ -24489,7 +24489,8 @@
 			)
 			(polygon
 				(pts
-					(xy 157.560992 105.461304) (xy 157.745823 105.721423) (xy 157.859213 105.637587) (xy 157.726222 105.342053)
+					(xy 157.78362 105.67233) (xy 158.73 105.475593) (xy 158.73 105.263407) (xy 157.999225 105.415326)
+					(xy 158.123789 105.190867) (xy 157.976816 105.126875) (xy 157.78362 105.479317)
 				)
 			)
 		)
