@@ -1,0 +1,243 @@
+(footprint "TSOT-23"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3-pin TSOT23 package, http://www.analog.com.tw/pdf/All_In_One.pdf")
+	(tags "TSOT-23")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4adab519-9881-4c05-b625-a556f2acf743")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TSOT-23"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "a4c32047-a8c5-4b8b-966f-16107e5dd261")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5fad696-dd81-459f-a7cf-b08b16dd36f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8481912c-612e-4d07-b648-4d2a8c5cc1df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.945 0.69)
+		(end 0.945 1.58)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0415dbb-aaf2-4510-8aa1-d9146c62d280")
+	)
+	(fp_line
+		(start 0.945 1.58)
+		(end -0.905 1.58)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5b7b151-0038-4cdc-bc12-26889241db90")
+	)
+	(fp_line
+		(start 0.96 -1.54)
+		(end -0.89 -1.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "233a4b5d-2277-49ee-9ee9-029be04d854d")
+	)
+	(fp_line
+		(start 0.96 -1.54)
+		(end 0.96 -0.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "298cfe27-a303-4fca-b837-4d58f66b38ff")
+	)
+	(fp_circle
+		(center -1.35 -1.8)
+		(end -1.1 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "da896117-746e-40a5-82a1-970714c7c575")
+	)
+	(fp_line
+		(start -2.17 -1.7)
+		(end -2.17 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0abf7e03-adf8-40e5-89f9-40339faa3c3a")
+	)
+	(fp_line
+		(start -2.17 -1.7)
+		(end 2.17 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0f5500a-c478-47d3-b2dc-2cde0de97ace")
+	)
+	(fp_line
+		(start 2.17 1.7)
+		(end -2.17 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37a47251-d1bf-448a-ad13-70e121bc5343")
+	)
+	(fp_line
+		(start 2.17 1.7)
+		(end 2.17 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "455b36f4-75ac-47bd-bccd-870e14edb691")
+	)
+	(fp_line
+		(start -0.88 -1)
+		(end -0.88 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e15ecec9-600c-4e99-8660-02fa124a4d63")
+	)
+	(fp_line
+		(start -0.88 -1)
+		(end -0.43 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb63a6c6-abd3-4de1-8619-5aa757caa1e6")
+	)
+	(fp_line
+		(start 0.88 -1.45)
+		(end -0.43 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04bdb2f2-2d30-4a98-a0bb-a35852d9adf9")
+	)
+	(fp_line
+		(start 0.88 -1.45)
+		(end 0.88 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d0d62c1e-62e1-406a-a35e-a9b8afdd5769")
+	)
+	(fp_line
+		(start 0.88 1.45)
+		(end -0.88 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86003830-3072-430e-9380-bebf34d3818a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "0ccd1c5f-0bb6-48aa-bea3-62cc20f28cc7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.31 -0.95)
+		(size 1.22 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a945bb75-d004-407d-8b7f-e57d16ca514b")
+	)
+	(pad "2" smd roundrect
+		(at -1.31 0.95)
+		(size 1.22 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5c8cf4ae-d48b-43ed-aeca-5cfb92f27e01")
+	)
+	(pad "3" smd roundrect
+		(at 1.31 0)
+		(size 1.22 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "91ffc048-6cc5-4a47-9f80-73c9a7d4c15a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
