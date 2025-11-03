@@ -7504,7 +7504,7 @@
 		)
 		(uuid c742a3e2-3561-4781-b224-d763a0325b69)
 	)
-	(text "Hand"
+	(text "right_hand"
 		(exclude_from_sim no)
 		(at 304.8 113.03 0)
 		(effects
@@ -7582,7 +7582,7 @@
 		)
 		(uuid "44de5402-b8ce-4c04-b0ce-4bce623de552")
 	)
-	(text "LED signal"
+	(text "right_LED signal"
 		(exclude_from_sim no)
 		(at 309.88 147.574 0)
 		(effects
@@ -10976,7 +10976,7 @@
 		)
 		(uuid "05511945-a16d-4761-af09-2b614ce7039d")
 	)
-	(label "D13"
+	(label "right_D13"
 		(at 431.8 49.53 180)
 		(effects
 			(font
@@ -11016,7 +11016,7 @@
 		)
 		(uuid "0fa4908e-ad62-4a82-8188-48f965850ecb")
 	)
-	(label "D13"
+	(label "right_D13"
 		(at 191.77 91.44 180)
 		(effects
 			(font
@@ -11026,7 +11026,7 @@
 		)
 		(uuid "116a3374-ee8f-4976-b753-6b9714812860")
 	)
-	(label "SCLK"
+	(label "right_SCLK"
 		(at 191.77 114.3 180)
 		(effects
 			(font
@@ -11046,7 +11046,7 @@
 		)
 		(uuid "16d7c722-5888-4025-81d5-abc1007ab980")
 	)
-	(label "D16"
+	(label "right_D16"
 		(at 191.77 99.06 180)
 		(effects
 			(font
@@ -11056,7 +11056,7 @@
 		)
 		(uuid "1ee4f3f2-d58a-44b2-b901-e5c9af6e6bdd")
 	)
-	(label "LED"
+	(label "right_LED"
 		(at 191.77 101.6 180)
 		(effects
 			(font
@@ -11066,7 +11066,7 @@
 		)
 		(uuid "2403ef9a-2ccb-4bdc-875f-91e2864770c0")
 	)
-	(label "SCLK"
+	(label "right_SCLK"
 		(at 255.27 59.69 0)
 		(effects
 			(font
@@ -11086,7 +11086,7 @@
 		)
 		(uuid "28f28f58-fe1c-4a05-9e7a-c212c4f14dc5")
 	)
-	(label "VBUS_DET"
+	(label "right_VBUS_DET"
 		(at 195.58 106.68 180)
 		(effects
 			(font
@@ -11106,7 +11106,7 @@
 		)
 		(uuid "2c72db1c-ef25-4aa4-9fbd-16d53b0e4a6e")
 	)
-	(label "MOSI"
+	(label "right_MOSI"
 		(at 191.77 116.84 180)
 		(effects
 			(font
@@ -11116,7 +11116,7 @@
 		)
 		(uuid "2c778ebc-1a69-4bce-a862-f524b7f118fe")
 	)
-	(label "D14"
+	(label "right_D14"
 		(at 303.53 93.98 0)
 		(effects
 			(font
@@ -11136,7 +11136,7 @@
 		)
 		(uuid "33c2bf1e-df85-4ed7-869a-0fbfc2b13bbb")
 	)
-	(label "D14"
+	(label "right_D14"
 		(at 431.8 54.61 180)
 		(effects
 			(font
@@ -11146,7 +11146,7 @@
 		)
 		(uuid "34e1dd56-f108-44ff-88ca-ddb40178b0d3")
 	)
-	(label "hand"
+	(label "right_hand"
 		(at 191.77 96.52 180)
 		(effects
 			(font
@@ -11156,7 +11156,7 @@
 		)
 		(uuid "3ad47792-a7f0-4dcb-a944-edfdf2a4d0c4")
 	)
-	(label "A2"
+	(label "right_A2"
 		(at 191.77 132.08 180)
 		(effects
 			(font
@@ -11206,7 +11206,7 @@
 		)
 		(uuid "48187c90-de8d-4c6f-8b1c-54146e25a6c0")
 	)
-	(label "right_QSPI_SCLK"
+	(label "right_QSPI_right_SCLK"
 		(at 218.44 134.62 0)
 		(effects
 			(font
@@ -11226,7 +11226,7 @@
 		)
 		(uuid "4f554231-81c9-42b5-a0b5-05d40567223a")
 	)
-	(label "A3"
+	(label "right_A3"
 		(at 255.27 49.53 0)
 		(effects
 			(font
@@ -11256,7 +11256,7 @@
 		)
 		(uuid "58acf9c5-6b27-4f92-8fd2-21d0c3070529")
 	)
-	(label "D16"
+	(label "right_D16"
 		(at 251.46 72.39 270)
 		(effects
 			(font
@@ -11306,7 +11306,7 @@
 		)
 		(uuid "63916d66-27c1-4a66-83ac-94500430c310")
 	)
-	(label "MOSI"
+	(label "right_MOSI"
 		(at 255.27 64.77 0)
 		(effects
 			(font
@@ -11326,7 +11326,7 @@
 		)
 		(uuid "70621990-3d26-4f62-87cf-f6089e6575a6")
 	)
-	(label "MISO"
+	(label "right_MISO"
 		(at 255.27 62.23 0)
 		(effects
 			(font
@@ -11346,7 +11346,7 @@
 		)
 		(uuid "721c0a1e-1ddf-4e56-a835-59436dd8fd8d")
 	)
-	(label "D13"
+	(label "right_D13"
 		(at 303.53 91.44 0)
 		(effects
 			(font
@@ -11376,7 +11376,7 @@
 		)
 		(uuid "7d76d6b1-a203-4119-b2b9-e9f85581e988")
 	)
-	(label "D11"
+	(label "right_D11"
 		(at 303.53 88.9 0)
 		(effects
 			(font
@@ -11386,7 +11386,7 @@
 		)
 		(uuid "7e0af265-7a62-42b5-b616-acbde83fee35")
 	)
-	(label "D14"
+	(label "right_D14"
 		(at 191.77 93.98 180)
 		(effects
 			(font
@@ -11436,7 +11436,7 @@
 		)
 		(uuid "9720c26d-e67f-4518-a258-0fa12a46ba94")
 	)
-	(label "A1"
+	(label "right_A1"
 		(at 191.77 129.54 180)
 		(effects
 			(font
@@ -11486,7 +11486,7 @@
 		)
 		(uuid "a306acf0-f277-47c1-b4e3-ec272639ff7b")
 	)
-	(label "A0"
+	(label "right_A0"
 		(at 255.27 57.15 0)
 		(effects
 			(font
@@ -11526,7 +11526,7 @@
 		)
 		(uuid "b123e4e0-3f0e-47c5-8215-ada0f806124c")
 	)
-	(label "LED"
+	(label "right_LED"
 		(at 24.765 160.02 270)
 		(effects
 			(font
@@ -11536,7 +11536,7 @@
 		)
 		(uuid "b245a0e0-4591-4ec1-b428-d1cebe5ea3ef")
 	)
-	(label "hand"
+	(label "right_hand"
 		(at 309.88 125.73 180)
 		(effects
 			(font
@@ -11546,7 +11546,7 @@
 		)
 		(uuid "b4fd5926-55fe-4e9c-90d9-46c0fb6ea7d9")
 	)
-	(label "D21"
+	(label "right_D21"
 		(at 191.77 111.76 180)
 		(effects
 			(font
@@ -11586,7 +11586,7 @@
 		)
 		(uuid "c066eb93-5626-4103-940e-86a68808205a")
 	)
-	(label "MISO"
+	(label "right_MISO"
 		(at 191.77 109.22 180)
 		(effects
 			(font
@@ -11596,7 +11596,7 @@
 		)
 		(uuid "c8810ed6-58a1-48fa-a92f-b44885eed2a5")
 	)
-	(label "A2"
+	(label "right_A2"
 		(at 255.27 52.07 0)
 		(effects
 			(font
@@ -11626,7 +11626,7 @@
 		)
 		(uuid "db0c7c09-b02f-46ba-91cc-ae374f0e47f1")
 	)
-	(label "D10"
+	(label "right_D10"
 		(at 303.53 86.36 0)
 		(effects
 			(font
@@ -11646,7 +11646,7 @@
 		)
 		(uuid "e3598199-4c74-434a-a45f-670014ffcc36")
 	)
-	(label "right_QSPI_SCLK"
+	(label "right_QSPI_right_SCLK"
 		(at 111.76 74.93 0)
 		(effects
 			(font
@@ -11666,7 +11666,7 @@
 		)
 		(uuid "e5a05dcf-f4ff-4676-afe6-9c0f3f30c14f")
 	)
-	(label "A3"
+	(label "right_A3"
 		(at 191.77 134.62 180)
 		(effects
 			(font
@@ -11686,7 +11686,7 @@
 		)
 		(uuid "f0752bb7-ba61-4275-afb2-b212435c6bd1")
 	)
-	(label "D21"
+	(label "right_D21"
 		(at 255.27 67.31 0)
 		(effects
 			(font
@@ -11696,7 +11696,7 @@
 		)
 		(uuid "f0a1ac50-5daf-4495-9c16-4b8c0d18b154")
 	)
-	(label "D10"
+	(label "right_D10"
 		(at 191.77 83.82 180)
 		(effects
 			(font
@@ -11706,7 +11706,7 @@
 		)
 		(uuid "f322fe69-65f6-46f2-b9c1-e25bc488e328")
 	)
-	(label "A0"
+	(label "right_A0"
 		(at 191.77 127 180)
 		(effects
 			(font
@@ -11746,7 +11746,7 @@
 		)
 		(uuid "fa2c2dc7-5446-48fb-adeb-4e8a5aeab8b9")
 	)
-	(label "A1"
+	(label "right_A1"
 		(at 255.27 54.61 0)
 		(effects
 			(font
@@ -11756,7 +11756,7 @@
 		)
 		(uuid "fadfd2bb-8c1b-4a52-8f70-294bd6fb18f2")
 	)
-	(label "D11"
+	(label "right_D11"
 		(at 191.77 86.36 180)
 		(effects
 			(font
@@ -11776,7 +11776,7 @@
 		)
 		(uuid "ffa35506-f503-4103-9779-48503fe62c17")
 	)
-	(global_label "rgb_3v3"
+	(global_label "right_rgb_3v3"
 		(shape input)
 		(at 323.85 167.64 180)
 		(effects
@@ -11796,7 +11796,7 @@
 			)
 		)
 	)
-	(global_label "row5_l"
+	(global_label "right_row5_l"
 		(shape input)
 		(at 391.16 34.29 180)
 		(effects
@@ -11816,7 +11816,7 @@
 			)
 		)
 	)
-	(global_label "row3_l"
+	(global_label "right_row3_l"
 		(shape input)
 		(at 313.69 54.61 180)
 		(effects
@@ -11836,7 +11836,7 @@
 			)
 		)
 	)
-	(global_label "ss_l"
+	(global_label "right_ss_l"
 		(shape input)
 		(at 431.8 57.15 180)
 		(effects
@@ -11878,7 +11878,7 @@
 			)
 		)
 	)
-	(global_label "ss_l"
+	(global_label "right_ss_l"
 		(shape input)
 		(at 312.42 25.4 180)
 		(effects
@@ -11899,7 +11899,7 @@
 			)
 		)
 	)
-	(global_label "miso_l"
+	(global_label "right_MISO_l"
 		(shape input)
 		(at 431.8 59.69 180)
 		(effects
@@ -11941,7 +11941,7 @@
 			)
 		)
 	)
-	(global_label "miso_l"
+	(global_label "right_MISO_l"
 		(shape input)
 		(at 312.42 33.02 180)
 		(effects
@@ -11962,7 +11962,7 @@
 			)
 		)
 	)
-	(global_label "col3_l"
+	(global_label "right_col3_l"
 		(shape input)
 		(at 264.16 67.31 0)
 		(effects
@@ -11982,7 +11982,7 @@
 			)
 		)
 	)
-	(global_label "rgb_3v3"
+	(global_label "right_rgb_3v3"
 		(shape input)
 		(at 228.6 39.37 180)
 		(effects
@@ -12002,7 +12002,7 @@
 			)
 		)
 	)
-	(global_label "sc_l"
+	(global_label "right_sc_l"
 		(shape input)
 		(at 312.42 30.48 180)
 		(effects
@@ -12023,7 +12023,7 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "right_SDA"
 		(shape input)
 		(at 182.88 63.5 0)
 		(effects
@@ -12063,7 +12063,7 @@
 			)
 		)
 	)
-	(global_label "col3_l"
+	(global_label "right_col3_l"
 		(shape input)
 		(at 353.06 22.86 180)
 		(effects
@@ -12104,7 +12104,7 @@
 			)
 		)
 	)
-	(global_label "col4_l"
+	(global_label "right_col4_l"
 		(shape input)
 		(at 313.69 57.15 180)
 		(effects
@@ -12124,7 +12124,7 @@
 			)
 		)
 	)
-	(global_label "col1_l"
+	(global_label "right_col1_l"
 		(shape input)
 		(at 391.16 52.07 180)
 		(effects
@@ -12144,7 +12144,7 @@
 			)
 		)
 	)
-	(global_label "col4_l"
+	(global_label "right_col4_l"
 		(shape input)
 		(at 228.6 59.69 180)
 		(effects
@@ -12164,7 +12164,7 @@
 			)
 		)
 	)
-	(global_label "col1_l"
+	(global_label "right_col1_l"
 		(shape input)
 		(at 353.06 30.48 180)
 		(effects
@@ -12184,7 +12184,7 @@
 			)
 		)
 	)
-	(global_label "row5_l"
+	(global_label "right_row5_l"
 		(shape input)
 		(at 313.69 64.77 180)
 		(effects
@@ -12204,7 +12204,7 @@
 			)
 		)
 	)
-	(global_label "row1_l"
+	(global_label "right_row1_l"
 		(shape input)
 		(at 391.16 57.15 180)
 		(effects
@@ -12224,7 +12224,7 @@
 			)
 		)
 	)
-	(global_label "col3_l"
+	(global_label "right_col3_l"
 		(shape input)
 		(at 391.16 59.69 180)
 		(effects
@@ -12244,7 +12244,7 @@
 			)
 		)
 	)
-	(global_label "ss_l"
+	(global_label "right_ss_l"
 		(shape input)
 		(at 251.46 81.28 270)
 		(effects
@@ -12265,7 +12265,7 @@
 			)
 		)
 	)
-	(global_label "row2_l"
+	(global_label "right_row2_l"
 		(shape input)
 		(at 353.06 33.02 180)
 		(effects
@@ -12285,7 +12285,7 @@
 			)
 		)
 	)
-	(global_label "row2_l"
+	(global_label "right_row2_l"
 		(shape input)
 		(at 391.16 49.53 180)
 		(effects
@@ -12326,7 +12326,7 @@
 			)
 		)
 	)
-	(global_label "col5_l"
+	(global_label "right_right_col5_l"
 		(shape input)
 		(at 313.69 59.69 180)
 		(effects
@@ -12346,7 +12346,7 @@
 			)
 		)
 	)
-	(global_label "row1_l"
+	(global_label "right_row1_l"
 		(shape input)
 		(at 264.16 49.53 0)
 		(effects
@@ -12366,7 +12366,7 @@
 			)
 		)
 	)
-	(global_label "sc_l"
+	(global_label "right_sc_l"
 		(shape input)
 		(at 431.8 62.23 180)
 		(effects
@@ -12387,7 +12387,7 @@
 			)
 		)
 	)
-	(global_label "row2_l"
+	(global_label "right_row2_l"
 		(shape input)
 		(at 264.16 57.15 0)
 		(effects
@@ -12428,7 +12428,7 @@
 			)
 		)
 	)
-	(global_label "row4_l"
+	(global_label "right_row4_l"
 		(shape input)
 		(at 313.69 52.07 180)
 		(effects
@@ -12448,7 +12448,7 @@
 			)
 		)
 	)
-	(global_label "row4_l"
+	(global_label "right_row4_l"
 		(shape input)
 		(at 228.6 54.61 180)
 		(effects
@@ -12468,7 +12468,7 @@
 			)
 		)
 	)
-	(global_label "row4_l"
+	(global_label "right_row4_l"
 		(shape input)
 		(at 391.16 46.99 180)
 		(effects
@@ -12488,7 +12488,7 @@
 			)
 		)
 	)
-	(global_label "row3_l"
+	(global_label "right_row3_l"
 		(shape input)
 		(at 391.16 44.45 180)
 		(effects
@@ -12529,7 +12529,7 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "right_SDA"
 		(shape input)
 		(at 431.8 39.37 180)
 		(effects
@@ -12549,7 +12549,7 @@
 			)
 		)
 	)
-	(global_label "col2_l"
+	(global_label "right_col2_l"
 		(shape input)
 		(at 264.16 52.07 0)
 		(effects
@@ -12569,7 +12569,7 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "right_SCL"
 		(shape input)
 		(at 182.88 66.04 0)
 		(effects
@@ -12589,7 +12589,7 @@
 			)
 		)
 	)
-	(global_label "mosi_l"
+	(global_label "right_MOSI_l"
 		(shape input)
 		(at 431.8 52.07 180)
 		(effects
@@ -12610,7 +12610,7 @@
 			)
 		)
 	)
-	(global_label "col6_l"
+	(global_label "right_col6_l"
 		(shape input)
 		(at 228.6 64.77 180)
 		(effects
@@ -12650,7 +12650,7 @@
 			)
 		)
 	)
-	(global_label "col5_l"
+	(global_label "right_right_col5_l"
 		(shape input)
 		(at 391.16 39.37 180)
 		(effects
@@ -12670,7 +12670,7 @@
 			)
 		)
 	)
-	(global_label "miso_l"
+	(global_label "right_MISO_l"
 		(shape input)
 		(at 264.16 62.23 0)
 		(effects
@@ -12691,7 +12691,7 @@
 			)
 		)
 	)
-	(global_label "mosi_l"
+	(global_label "right_MOSI_l"
 		(shape input)
 		(at 312.42 27.94 180)
 		(effects
@@ -12712,7 +12712,7 @@
 			)
 		)
 	)
-	(global_label "col2_l"
+	(global_label "right_col2_l"
 		(shape input)
 		(at 391.16 54.61 180)
 		(effects
@@ -12732,7 +12732,7 @@
 			)
 		)
 	)
-	(global_label "mosi_l"
+	(global_label "right_MOSI_l"
 		(shape input)
 		(at 264.16 64.77 0)
 		(effects
@@ -12753,7 +12753,7 @@
 			)
 		)
 	)
-	(global_label "col5_l"
+	(global_label "right_right_col5_l"
 		(shape input)
 		(at 228.6 62.23 180)
 		(effects
@@ -12773,7 +12773,7 @@
 			)
 		)
 	)
-	(global_label "sc_l"
+	(global_label "right_sc_l"
 		(shape input)
 		(at 264.16 59.69 0)
 		(effects
@@ -12794,7 +12794,7 @@
 			)
 		)
 	)
-	(global_label "col6_l"
+	(global_label "right_col6_l"
 		(shape input)
 		(at 313.69 62.23 180)
 		(effects
@@ -12814,7 +12814,7 @@
 			)
 		)
 	)
-	(global_label "row5_l"
+	(global_label "right_row5_l"
 		(shape input)
 		(at 228.6 67.31 180)
 		(effects
@@ -12834,7 +12834,7 @@
 			)
 		)
 	)
-	(global_label "row1_l"
+	(global_label "right_row1_l"
 		(shape input)
 		(at 353.06 25.4 180)
 		(effects
@@ -12854,7 +12854,7 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "right_SCL"
 		(shape input)
 		(at 431.8 41.91 180)
 		(effects
@@ -12874,7 +12874,7 @@
 			)
 		)
 	)
-	(global_label "row3_l"
+	(global_label "right_row3_l"
 		(shape input)
 		(at 228.6 57.15 180)
 		(effects
@@ -12894,7 +12894,7 @@
 			)
 		)
 	)
-	(global_label "col1_l"
+	(global_label "right_col1_l"
 		(shape input)
 		(at 264.16 54.61 0)
 		(effects
@@ -12914,7 +12914,7 @@
 			)
 		)
 	)
-	(global_label "col6_l"
+	(global_label "right_col6_l"
 		(shape input)
 		(at 391.16 36.83 180)
 		(effects
@@ -12934,7 +12934,7 @@
 			)
 		)
 	)
-	(global_label "col2_l"
+	(global_label "right_col2_l"
 		(shape input)
 		(at 353.06 27.94 180)
 		(effects
@@ -12995,7 +12995,7 @@
 			)
 		)
 	)
-	(global_label "col4_l"
+	(global_label "right_col4_l"
 		(shape input)
 		(at 391.16 41.91 180)
 		(effects
