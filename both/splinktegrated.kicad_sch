@@ -30373,7 +30373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V1"
+		(property "Value" "right_+1V1"
 			(at 110.49 411.48 0)
 			(effects
 				(font
@@ -33328,7 +33328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V1"
+		(property "Value" "right_+1V1"
 			(at 120.65 411.48 0)
 			(effects
 				(font
@@ -35689,7 +35689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V1"
+		(property "Value" "right_+1V1"
 			(at 162.56 274.32 0)
 			(effects
 				(font
