@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 0.9399999976158142,
       "vias": 0.3400000035762787,
-      "zones": 0.6
+      "zones": 1.0
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -40,8 +40,8 @@
       "pads",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffffff7_ffffff5f",
-    "zone_display_mode": 1
+    "visible_layers": "00000000_00000000_0ffffdf5_fff5ff5f",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
@@ -83,18 +83,18 @@
       11
     ],
     "col_widths": [
-      162,
-      147,
-      91,
-      67,
-      91,
-      91,
-      91,
-      71,
-      91,
-      91,
-      91,
-      91
+      186,
+      171,
+      112,
+      79,
+      112,
+      112,
+      112,
+      83,
+      112,
+      112,
+      112,
+      112
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

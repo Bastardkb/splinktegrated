@@ -13046,7 +13046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f3b341e")
-		(property "Reference" "F2"
+		(property "Reference" "right_F9000"
 			(at -140.97 32.385 90)
 			(effects
 				(font
@@ -13106,7 +13106,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "F2")
+					(reference "right_F9000")
 					(unit 1)
 				)
 			)
@@ -13121,7 +13121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f3b347b")
-		(property "Reference" "D39"
+		(property "Reference" "right_D9000"
 			(at -132.588 29.3116 90)
 			(effects
 				(font
@@ -13182,7 +13182,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "D39")
+					(reference "right_D9000")
 					(unit 1)
 				)
 			)
@@ -13197,7 +13197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061c0d4b7")
-		(property "Reference" "FB13"
+		(property "Reference" "right_FB9000"
 			(at -148.59 32.6898 90)
 			(effects
 				(font
@@ -13256,7 +13256,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "FB13")
+					(reference "right_FB9000")
 					(unit 1)
 				)
 			)
@@ -13337,7 +13337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03e0b3e0-ec10-41bb-aa25-1f42361305a5")
-		(property "Reference" "C12"
+		(property "Reference" "right_C9004"
 			(at 149.86 177.8 0)
 			(effects
 				(font
@@ -13400,7 +13400,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C12")
+					(reference "right_C9004")
 					(unit 1)
 				)
 			)
@@ -13416,7 +13416,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "06b6e523-10ae-4799-8871-3c7a3a700ad9")
-		(property "Reference" "J5"
+		(property "Reference" "right_J9004"
 			(at 67.945 177.165 0)
 			(effects
 				(font
@@ -13471,7 +13471,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J5")
+					(reference "right_J9004")
 					(unit 1)
 				)
 			)
@@ -13486,7 +13486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "073e7a20-6222-4c9d-9f89-871bf718b9fb")
-		(property "Reference" "U1"
+		(property "Reference" "right_U9005"
 			(at 128.27 41.91 0)
 			(effects
 				(font
@@ -13714,7 +13714,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "U1")
+					(reference "right_U9005")
 					(unit 1)
 				)
 			)
@@ -13729,7 +13729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "087b9e0e-378d-492c-af76-12bb45f09bee")
-		(property "Reference" "R4"
+		(property "Reference" "right_R9001"
 			(at -33.655 27.305 90)
 			(effects
 				(font
@@ -13790,7 +13790,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R4")
+					(reference "right_R9001")
 					(unit 1)
 				)
 			)
@@ -14001,7 +14001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f6a3c11-ffd7-4c3a-b12b-59d59dc88192")
-		(property "Reference" "J6"
+		(property "Reference" "right_J9014"
 			(at 438.785 49.5299 0)
 			(effects
 				(font
@@ -14099,7 +14099,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J6")
+					(reference "right_J9014")
 					(unit 1)
 				)
 			)
@@ -14114,7 +14114,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "0fc94264-4f85-4bd0-bf70-5fc86541c23b")
-		(property "Reference" "J10"
+		(property "Reference" "right_J9007"
 			(at 356.87 19.05 0)
 			(effects
 				(font
@@ -14177,7 +14177,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J10")
+					(reference "right_J9007")
 					(unit 1)
 				)
 			)
@@ -14257,7 +14257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1546bd82-223a-4994-aa1f-1b5237c29940")
-		(property "Reference" "U6"
+		(property "Reference" "right_U9001"
 			(at 327.025 158.75 0)
 			(effects
 				(font
@@ -14366,7 +14366,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "U6")
+					(reference "right_U9001")
 					(unit 1)
 				)
 			)
@@ -14447,7 +14447,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "1880b471-5cee-4172-b0e8-0fbdd21b2287")
-		(property "Reference" "H2"
+		(property "Reference" "right_H9001"
 			(at 57.15 73.66 0)
 			(effects
 				(font
@@ -14498,7 +14498,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "H2")
+					(reference "right_H9001")
 					(unit 1)
 				)
 			)
@@ -14513,7 +14513,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "1b4533a2-d5e4-4403-b2a7-a0feb02c55e1")
-		(property "Reference" "SW1"
+		(property "Reference" "SW9002"
 			(at 48.895 208.28 0)
 			(effects
 				(font
@@ -14565,7 +14565,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "SW1")
+					(reference "SW9002")
 					(unit 1)
 				)
 			)
@@ -14580,7 +14580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "203daf77-81f4-4e18-a179-4a94924b41af")
-		(property "Reference" "R8"
+		(property "Reference" "right_R9007"
 			(at 120.65 91.44 90)
 			(effects
 				(font
@@ -14641,7 +14641,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R8")
+					(reference "right_R9007")
 					(unit 1)
 				)
 			)
@@ -14657,7 +14657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21cdcec7-6c5d-43dc-b239-07bda77e500d")
-		(property "Reference" "U5"
+		(property "Reference" "right_U9004"
 			(at 245.8594 119.38 0)
 			(effects
 				(font
@@ -14737,7 +14737,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "U5")
+					(reference "right_U9004")
 					(unit 1)
 				)
 			)
@@ -14752,7 +14752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "222cc908-86de-4638-b082-21d5bc4d7da5")
-		(property "Reference" "F1"
+		(property "Reference" "right_F9001"
 			(at -44.45 20.955 90)
 			(effects
 				(font
@@ -14814,7 +14814,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "F1")
+					(reference "right_F9001")
 					(unit 1)
 				)
 			)
@@ -14829,7 +14829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "240ef12d-5727-43f1-8ff0-84f44af2df0d")
-		(property "Reference" "R10"
+		(property "Reference" "right_R9009"
 			(at 195.58 102.235 90)
 			(effects
 				(font
@@ -14890,7 +14890,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R10")
+					(reference "right_R9009")
 					(unit 1)
 				)
 			)
@@ -14972,7 +14972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "262b5bfc-72b5-4f03-a491-961a3003e66f")
-		(property "Reference" "Q5"
+		(property "Reference" "right_Q9000"
 			(at -35.56 31.5468 90)
 			(effects
 				(font
@@ -15034,7 +15034,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "Q5")
+					(reference "right_Q9000")
 					(unit 1)
 				)
 			)
@@ -15115,7 +15115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2af31408-6ec7-4e56-ba11-7848b37f0d80")
-		(property "Reference" "C13"
+		(property "Reference" "right_C9005"
 			(at 158.75 177.8 0)
 			(effects
 				(font
@@ -15178,7 +15178,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C13")
+					(reference "right_C9005")
 					(unit 1)
 				)
 			)
@@ -15258,7 +15258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "305565fe-7226-4b5f-9fa6-6312dfbc89bf")
-		(property "Reference" "C14"
+		(property "Reference" "right_C9006"
 			(at 167.64 177.8 0)
 			(effects
 				(font
@@ -15321,7 +15321,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C14")
+					(reference "right_C9006")
 					(unit 1)
 				)
 			)
@@ -15337,7 +15337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "315eeee6-0695-422c-a4bd-bf9e6a9b3ff8")
-		(property "Reference" "J18"
+		(property "Reference" "right_J9000"
 			(at -168.91 19.05 0)
 			(effects
 				(font
@@ -15443,7 +15443,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J18")
+					(reference "right_J9000")
 					(unit 1)
 				)
 			)
@@ -15458,7 +15458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31e106b4-2585-4558-8f66-13046c67cfb0")
-		(property "Reference" "R6"
+		(property "Reference" "right_R9005"
 			(at 120.65 78.74 90)
 			(effects
 				(font
@@ -15519,7 +15519,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R6")
+					(reference "right_R9005")
 					(unit 1)
 				)
 			)
@@ -15598,7 +15598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33208a57-5054-4bad-b85f-35da7b25e7bb")
-		(property "Reference" "U3"
+		(property "Reference" "right_U9000"
 			(at 46.99 106.68 0)
 			(effects
 				(font
@@ -15677,7 +15677,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "U3")
+					(reference "right_U9000")
 					(unit 1)
 				)
 			)
@@ -15692,7 +15692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3911e47d-05d1-4ae4-9088-1d15a3a2131f")
-		(property "Reference" "C9"
+		(property "Reference" "right_C9002"
 			(at 123.19 177.8 0)
 			(effects
 				(font
@@ -15755,7 +15755,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C9")
+					(reference "right_C9002")
 					(unit 1)
 				)
 			)
@@ -15834,7 +15834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ed857fe-184a-43ae-8f36-82703b1b8349")
-		(property "Reference" "C5"
+		(property "Reference" "right_C9011"
 			(at 83.82 177.8 0)
 			(effects
 				(font
@@ -15897,7 +15897,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C5")
+					(reference "right_C9011")
 					(unit 1)
 				)
 			)
@@ -15912,7 +15912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "421882ed-e7ca-4905-b86a-beca91ed7f0b")
-		(property "Reference" "FB14"
+		(property "Reference" "right_FB9003"
 			(at -54.61 31.4198 90)
 			(effects
 				(font
@@ -15971,7 +15971,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "FB14")
+					(reference "right_FB9003")
 					(unit 1)
 				)
 			)
@@ -16051,7 +16051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a21e78b-0ab0-4b88-8132-9b174e045719")
-		(property "Reference" "C1"
+		(property "Reference" "right_C9000"
 			(at 34.29 119.38 0)
 			(effects
 				(font
@@ -16114,7 +16114,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C1")
+					(reference "right_C9000")
 					(unit 1)
 				)
 			)
@@ -16130,7 +16130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ba8f30d-b9de-4dee-94c4-5459f9c13a42")
-		(property "Reference" "Y1"
+		(property "Reference" "right_Y9000"
 			(at 101.6 101.6 0)
 			(effects
 				(font
@@ -16198,7 +16198,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "Y1")
+					(reference "right_Y9000")
 					(unit 1)
 				)
 			)
@@ -16408,7 +16408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5853345e-306a-41fe-bca6-c90c415bf536")
-		(property "Reference" "R11"
+		(property "Reference" "right_R9010"
 			(at 195.58 111.125 90)
 			(effects
 				(font
@@ -16469,7 +16469,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R11")
+					(reference "right_R9010")
 					(unit 1)
 				)
 			)
@@ -16548,7 +16548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c8a37d0-ab61-4b61-9bb9-8ee295b26118")
-		(property "Reference" "D1"
+		(property "Reference" "right_D9002"
 			(at 26.035 170.18 90)
 			(effects
 				(font
@@ -16612,7 +16612,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "D1")
+					(reference "right_D9002")
 					(unit 1)
 				)
 			)
@@ -16693,7 +16693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e85a42d-f417-4119-a401-8899ee86f25f")
-		(property "Reference" "U2"
+		(property "Reference" "right_U9002"
 			(at -148.4883 76.2 0)
 			(effects
 				(font
@@ -16767,7 +16767,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "U2")
+					(reference "right_U9002")
 					(unit 1)
 				)
 			)
@@ -16782,7 +16782,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "5f4f43b6-90d1-41da-bc8f-eea692c90ef3")
-		(property "Reference" "J13"
+		(property "Reference" "right_J9013"
 			(at 318.77 85.0899 0)
 			(effects
 				(font
@@ -16833,7 +16833,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J13")
+					(reference "right_J9013")
 					(unit 1)
 				)
 			)
@@ -16849,7 +16849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6125bb34-31fe-49ed-b2ab-61dab24d450a")
-		(property "Reference" "J1"
+		(property "Reference" "right_J9001"
 			(at -73.66 17.78 0)
 			(effects
 				(font
@@ -16955,7 +16955,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J1")
+					(reference "right_J9001")
 					(unit 1)
 				)
 			)
@@ -17100,7 +17100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ee42d55-dbe1-44aa-94fb-63937ea1f410")
-		(property "Reference" "C6"
+		(property "Reference" "right_C9012"
 			(at 92.71 177.8 0)
 			(effects
 				(font
@@ -17163,7 +17163,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C6")
+					(reference "right_C9012")
 					(unit 1)
 				)
 			)
@@ -17178,7 +17178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ee62b36-1888-4803-b1d9-02236dc66642")
-		(property "Reference" "R7"
+		(property "Reference" "right_R9006"
 			(at 120.65 86.36 90)
 			(effects
 				(font
@@ -17239,7 +17239,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R7")
+					(reference "right_R9006")
 					(unit 1)
 				)
 			)
@@ -17254,7 +17254,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "7131ee3d-de36-4b6f-a391-6695d97d81c2")
-		(property "Reference" "SW2"
+		(property "Reference" "SW9001"
 			(at 49.53 198.755 0)
 			(effects
 				(font
@@ -17306,7 +17306,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "SW2")
+					(reference "SW9001")
 					(unit 1)
 				)
 			)
@@ -17321,7 +17321,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "725ddd62-c356-4053-88dd-d8de16f6d111")
-		(property "Reference" "J9"
+		(property "Reference" "right_J9006"
 			(at 339.8013 28.5178 0)
 			(effects
 				(font
@@ -17378,7 +17378,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J9")
+					(reference "right_J9006")
 					(unit 1)
 				)
 			)
@@ -17458,7 +17458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "783982b0-cfe3-4fbf-b10a-17549f9d91e8")
-		(property "Reference" "R2"
+		(property "Reference" "right_R9003"
 			(at 37.465 167.64 90)
 			(effects
 				(font
@@ -17519,7 +17519,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R2")
+					(reference "right_R9003")
 					(unit 1)
 				)
 			)
@@ -17534,7 +17534,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "79854843-773f-4ecd-abc7-15a7eaf78d6e")
-		(property "Reference" "NA_JP7"
+		(property "Reference" "right_NA_JP9001"
 			(at 326.644 126.238 0)
 			(effects
 				(font
@@ -17586,7 +17586,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "NA_JP7")
+					(reference "right_NA_JP9001")
 					(unit 1)
 				)
 			)
@@ -17667,7 +17667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81213cff-519c-4fcf-ae25-6fad0fc859bb")
-		(property "Reference" "R1"
+		(property "Reference" "right_R9002"
 			(at 22.225 181.61 90)
 			(effects
 				(font
@@ -17728,7 +17728,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R1")
+					(reference "right_R9002")
 					(unit 1)
 				)
 			)
@@ -17938,7 +17938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8803fbaa-2105-4bc5-9251-5d3f7f1ecbad")
-		(property "Reference" "C2"
+		(property "Reference" "right_C9008"
 			(at 59.69 119.38 0)
 			(effects
 				(font
@@ -18001,7 +18001,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C2")
+					(reference "right_C9008")
 					(unit 1)
 				)
 			)
@@ -18081,7 +18081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89a664f3-9470-4cc9-8840-97b4b2b29405")
-		(property "Reference" "C4"
+		(property "Reference" "right_C9010"
 			(at 113.03 99.06 0)
 			(effects
 				(font
@@ -18144,7 +18144,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C4")
+					(reference "right_C9010")
 					(unit 1)
 				)
 			)
@@ -18224,7 +18224,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "8a591f73-f847-40c8-9d03-7766d85fde4c")
-		(property "Reference" "J15"
+		(property "Reference" "right_J9009"
 			(at 318.77 87.6299 0)
 			(effects
 				(font
@@ -18275,7 +18275,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J15")
+					(reference "right_J9009")
 					(unit 1)
 				)
 			)
@@ -18290,7 +18290,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "8a6d32f1-f1bc-4589-9f3d-d53e14b6b415")
-		(property "Reference" "NA_JP6"
+		(property "Reference" "NA_JP1"
 			(at 326.644 118.618 0)
 			(effects
 				(font
@@ -18342,7 +18342,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "NA_JP6")
+					(reference "NA_JP1")
 					(unit 1)
 				)
 			)
@@ -18422,7 +18422,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "95e669ed-a642-4381-9630-64c363821dfe")
-		(property "Reference" "J8"
+		(property "Reference" "right_J9005"
 			(at 317.5 48.26 0)
 			(effects
 				(font
@@ -18488,7 +18488,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J8")
+					(reference "right_J9005")
 					(unit 1)
 				)
 			)
@@ -18503,7 +18503,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "970ee60c-2f58-46f3-9992-4f817b4b2824")
-		(property "Reference" "J17"
+		(property "Reference" "right_J9011"
 			(at 318.77 92.7099 0)
 			(effects
 				(font
@@ -18554,7 +18554,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J17")
+					(reference "right_J9011")
 					(unit 1)
 				)
 			)
@@ -18570,7 +18570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "985fa67f-1572-473b-9785-dc47218591e0")
-		(property "Reference" "Q4"
+		(property "Reference" "right_Q9001"
 			(at -127 32.8168 90)
 			(effects
 				(font
@@ -18632,7 +18632,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "Q4")
+					(reference "right_Q9001")
 					(unit 1)
 				)
 			)
@@ -18712,7 +18712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e95448a-4d3b-4e3c-bae6-5719928b8177")
-		(property "Reference" "C8"
+		(property "Reference" "right_C9001"
 			(at 111.76 177.8 0)
 			(effects
 				(font
@@ -18775,7 +18775,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C8")
+					(reference "right_C9001")
 					(unit 1)
 				)
 			)
@@ -19050,7 +19050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a29d643d-e681-4dfa-aa5e-df0b0d74f58b")
-		(property "Reference" "FB1"
+		(property "Reference" "right_FB9001"
 			(at -82.55 67.31 90)
 			(effects
 				(font
@@ -19114,7 +19114,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "FB1")
+					(reference "right_FB9001")
 					(unit 1)
 				)
 			)
@@ -19130,7 +19130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9625bb1-8b6a-4bdf-b3d0-495064f9f013")
-		(property "Reference" "J14"
+		(property "Reference" "right_J9010"
 			(at 398.145 49.5299 0)
 			(effects
 				(font
@@ -19228,7 +19228,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J14")
+					(reference "right_J9010")
 					(unit 1)
 				)
 			)
@@ -19243,7 +19243,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "aa23e168-a4d5-43bb-b77e-fea1107ace6a")
-		(property "Reference" "NA_JP5"
+		(property "Reference" "right_NA_JP9000"
 			(at 425.704 43.688 0)
 			(effects
 				(font
@@ -19295,7 +19295,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "NA_JP5")
+					(reference "right_NA_JP9000")
 					(unit 1)
 				)
 			)
@@ -19310,7 +19310,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "acd1b746-b53e-493a-944a-a23419fee66c")
-		(property "Reference" "J16"
+		(property "Reference" "right_J9012"
 			(at 318.77 90.1699 0)
 			(effects
 				(font
@@ -19361,7 +19361,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J16")
+					(reference "right_J9012")
 					(unit 1)
 				)
 			)
@@ -19505,7 +19505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae6ffe73-4ede-42eb-a95f-d6f7f5f2d48c")
-		(property "Reference" "R3"
+		(property "Reference" "right_R9004"
 			(at 52.705 167.005 90)
 			(effects
 				(font
@@ -19566,7 +19566,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R3")
+					(reference "right_R9004")
 					(unit 1)
 				)
 			)
@@ -19581,7 +19581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae7a0ef1-99b7-459b-b7cc-4f0cd18db65f")
-		(property "Reference" "R5"
+		(property "Reference" "right_R9000"
 			(at -45.72 35.56 90)
 			(effects
 				(font
@@ -19642,7 +19642,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R5")
+					(reference "right_R9000")
 					(unit 1)
 				)
 			)
@@ -19722,7 +19722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4a73d91-3a27-42c7-b4fa-9dd5ed4d6a92")
-		(property "Reference" "C7"
+		(property "Reference" "right_C9013"
 			(at 102.87 177.8 0)
 			(effects
 				(font
@@ -19785,7 +19785,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C7")
+					(reference "right_C9013")
 					(unit 1)
 				)
 			)
@@ -19800,7 +19800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5b89fb5-fe5d-40d0-a68d-711053a84383")
-		(property "Reference" "R12"
+		(property "Reference" "right_R9011"
 			(at 314.96 128.27 90)
 			(effects
 				(font
@@ -19861,7 +19861,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R12")
+					(reference "right_R9011")
 					(unit 1)
 				)
 			)
@@ -19877,7 +19877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b94d1b4d-48b1-4f8d-9032-b6e7db0033b1")
-		(property "Reference" "U4"
+		(property "Reference" "right_U9003"
 			(at -63.2713 85.725 0)
 			(effects
 				(font
@@ -19951,7 +19951,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "U4")
+					(reference "right_U9003")
 					(unit 1)
 				)
 			)
@@ -20031,7 +20031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbe1b17f-e821-4c24-bc3b-3710dec1ce1d")
-		(property "Reference" "D2"
+		(property "Reference" "right_D9001"
 			(at -24.13 20.955 0)
 			(effects
 				(font
@@ -20092,7 +20092,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "D2")
+					(reference "right_D9001")
 					(unit 1)
 				)
 			)
@@ -20107,7 +20107,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "bd7aa977-0679-474b-8d61-d81fd6aed2f9")
-		(property "Reference" "J7"
+		(property "Reference" "right_J9008"
 			(at 318.77 29.21 0)
 			(effects
 				(font
@@ -20173,7 +20173,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J7")
+					(reference "right_J9008")
 					(unit 1)
 				)
 			)
@@ -20188,7 +20188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0b12aba-3c4f-4684-83d7-a5de2c7f97e9")
-		(property "Reference" "C3"
+		(property "Reference" "right_C9009"
 			(at 99.06 99.06 0)
 			(effects
 				(font
@@ -20251,7 +20251,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C3")
+					(reference "right_C9009")
 					(unit 1)
 				)
 			)
@@ -20331,7 +20331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c410ea0a-57b9-44f4-ad98-8eff5d6c96c2")
-		(property "Reference" "FB2"
+		(property "Reference" "right_FB9002"
 			(at -177.8 68.58 90)
 			(effects
 				(font
@@ -20395,7 +20395,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "FB2")
+					(reference "right_FB9002")
 					(unit 1)
 				)
 			)
@@ -20541,7 +20541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9884b9d-4eb9-473c-9e2d-749dab9623ad")
-		(property "Reference" "C11"
+		(property "Reference" "right_C9003"
 			(at 140.97 177.8 0)
 			(effects
 				(font
@@ -20604,7 +20604,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C11")
+					(reference "right_C9003")
 					(unit 1)
 				)
 			)
@@ -20945,7 +20945,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d47ac738-b6ad-4714-b9cf-af09533e19b0")
-		(property "Reference" "J19"
+		(property "Reference" "right_J9003"
 			(at 318.77 95.2499 0)
 			(effects
 				(font
@@ -20996,7 +20996,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J19")
+					(reference "right_J9003")
 					(unit 1)
 				)
 			)
@@ -21208,7 +21208,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "dabcc803-036f-4089-85eb-878dcd0c2279")
-		(property "Reference" "J20"
+		(property "Reference" "right_J9002"
 			(at 318.77 97.7899 0)
 			(effects
 				(font
@@ -21259,7 +21259,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "J20")
+					(reference "right_J9002")
 					(unit 1)
 				)
 			)
@@ -21404,7 +21404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de6b2c20-bfc9-4059-a380-2e5d7f4c49ce")
-		(property "Reference" "R9"
+		(property "Reference" "right_R9008"
 			(at 227.33 124.46 90)
 			(effects
 				(font
@@ -21465,7 +21465,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "R9")
+					(reference "right_R9008")
 					(unit 1)
 				)
 			)
@@ -21480,7 +21480,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "e29f716b-d53e-44dc-be20-e496ef7b37cd")
-		(property "Reference" "H1"
+		(property "Reference" "right_H9003"
 			(at 50.8 73.66 0)
 			(effects
 				(font
@@ -21531,7 +21531,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "H1")
+					(reference "right_H9003")
 					(unit 1)
 				)
 			)
@@ -21742,7 +21742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f24002f0-84e7-46e9-a36a-cadeb5580387")
-		(property "Reference" "C10"
+		(property "Reference" "right_C9007"
 			(at 132.08 177.8 0)
 			(effects
 				(font
@@ -21805,7 +21805,7 @@
 		(instances
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "C10")
+					(reference "right_C9007")
 					(unit 1)
 				)
 			)
