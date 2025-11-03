@@ -38,6 +38,7 @@
       "footprint_references",
       "tracks",
       "pads",
+      "zones",
       "shapes"
     ],
     "visible_layers": "00000000_00000000_0ffffff7_ffffff5f",

@@ -7608,7 +7608,7 @@
 		)
 		(uuid "5c11d407-0aa6-475c-b4b2-7a7e4cbd937b")
 	)
-	(text "The datasheet of the SK6815 Mini-E mentions that:\n- Vdd > 3.7V, hence we use the Vbus here which is around 4.7V\n- Vih >= 0.7*Vdd = 0.7*4.7 = 3.29V\n\nTechnically here Vih is at 3.3V as it's output by the RP2040. But as a precaution, we shift it to the VBus levels.\n\nVin: logic input voltage\nVdd: power supply\nVih: input signal flip treshold"
+	(text "The datasheet of the SK6815 Mini-E mentions that:\n- Vdd > 3.7V, hence we use the right_VBUS here which is around 4.7V\n- Vih >= 0.7*Vdd = 0.7*4.7 = 3.29V\n\nTechnically here Vih is at 3.3V as it's output by the RP2040. But as a precaution, we shift it to the right_VBUS levels.\n\nVin: logic input voltage\nVdd: power supply\nVih: input signal flip treshold"
 		(exclude_from_sim no)
 		(at 310.642 194.31 0)
 		(effects
@@ -7632,7 +7632,7 @@
 		)
 		(uuid "6616589e-aeaa-4ebb-8a48-69fe013ff4f5")
 	)
-	(text "- Transistor for protection against shorts between power and Gnd (reverse polarity)\n- TVS diode against power surges\n- U2 for ESD protection\n\nOn the serial port, we use a TVS diode instead of Zener (on the main connector)\nto avoid power drop, as power would have to go through 2 Zener - one reversed."
+	(text "- Transistor for protection against shorts between power and right_GND (reverse polarity)\n- TVS diode against power surges\n- U2 for ESD protection\n\nOn the serial port, we use a TVS diode instead of Zener (on the main connector)\nto avoid power drop, as power would have to go through 2 Zener - one reversed."
 		(exclude_from_sim no)
 		(at -189.484 136.652 0)
 		(effects
@@ -10966,7 +10966,7 @@
 		)
 		(uuid "fec9c9e8-6226-453e-8696-43731c6101e5")
 	)
-	(label "D8"
+	(label "right_D8"
 		(at 191.77 78.74 180)
 		(effects
 			(font
@@ -10996,7 +10996,7 @@
 		)
 		(uuid "0bd362f3-fe51-4efe-8e02-a3d193a01a59")
 	)
-	(label "D+"
+	(label "right_D+"
 		(at -55.88 101.6 0)
 		(effects
 			(font
@@ -11006,7 +11006,7 @@
 		)
 		(uuid "0dff19b5-41ec-4cae-956c-67185b003020")
 	)
-	(label "QSPI_D2"
+	(label "right_QSPI_D2"
 		(at 111.76 68.58 0)
 		(effects
 			(font
@@ -11036,7 +11036,7 @@
 		)
 		(uuid "1593cc50-50e0-4ef3-bf41-154a6acb9fa8")
 	)
-	(label "D-"
+	(label "right_D-"
 		(at -76.2 101.6 180)
 		(effects
 			(font
@@ -11076,7 +11076,7 @@
 		)
 		(uuid "248ef2a6-b7ea-4af1-8b0b-3a614c68ee32")
 	)
-	(label "D0"
+	(label "right_D0"
 		(at 237.49 39.37 180)
 		(effects
 			(font
@@ -11096,7 +11096,7 @@
 		)
 		(uuid "2bd3819c-cd75-4c3c-96f9-21297ecaf686")
 	)
-	(label "D6"
+	(label "right_D6"
 		(at 191.77 73.66 180)
 		(effects
 			(font
@@ -11126,7 +11126,7 @@
 		)
 		(uuid "2dd59446-b830-47ef-bd3a-c553a1b13e6a")
 	)
-	(label "D8"
+	(label "right_D8"
 		(at 237.49 64.77 180)
 		(effects
 			(font
@@ -11166,7 +11166,7 @@
 		)
 		(uuid "3b977e45-3a8f-4c65-bab2-2fabbb5a953e")
 	)
-	(label "D7"
+	(label "right_D7"
 		(at 191.77 76.2 180)
 		(effects
 			(font
@@ -11176,7 +11176,7 @@
 		)
 		(uuid "435d8491-dc7a-4d54-8fe4-f1c917ae5a57")
 	)
-	(label "D-"
+	(label "right_D-"
 		(at 111.76 83.82 0)
 		(effects
 			(font
@@ -11186,7 +11186,7 @@
 		)
 		(uuid "46d4b23c-2a27-4d03-9859-ca48314e9293")
 	)
-	(label "D1"
+	(label "right_D1"
 		(at 191.77 60.96 180)
 		(effects
 			(font
@@ -11196,7 +11196,7 @@
 		)
 		(uuid "472c1864-efa5-430a-b138-95b0310b6e2b")
 	)
-	(label "~{RESET}"
+	(label "right_~{RESET}"
 		(at 31.115 172.72 0)
 		(effects
 			(font
@@ -11206,7 +11206,7 @@
 		)
 		(uuid "48187c90-de8d-4c6f-8b1c-54146e25a6c0")
 	)
-	(label "QSPI_SCLK"
+	(label "right_QSPI_SCLK"
 		(at 218.44 134.62 0)
 		(effects
 			(font
@@ -11216,7 +11216,7 @@
 		)
 		(uuid "4f16005d-7fbc-417a-9156-b879b841b0c2")
 	)
-	(label "D4"
+	(label "right_D4"
 		(at 191.77 68.58 180)
 		(effects
 			(font
@@ -11236,7 +11236,7 @@
 		)
 		(uuid "52485166-041a-4fa7-b779-7a8b8b57b78b")
 	)
-	(label "D9"
+	(label "right_D9"
 		(at 237.49 67.31 180)
 		(effects
 			(font
@@ -11246,7 +11246,7 @@
 		)
 		(uuid "529e62f7-97e9-4017-9a5a-296d36014786")
 	)
-	(label "QSPI_D0"
+	(label "right_QSPI_D0"
 		(at 267.97 127 180)
 		(effects
 			(font
@@ -11266,7 +11266,7 @@
 		)
 		(uuid "59af45c2-cf2d-4761-9576-ffd92aaf78f2")
 	)
-	(label "QSPI_~{CS}"
+	(label "right_QSPI_~{CS}"
 		(at 218.44 129.54 0)
 		(effects
 			(font
@@ -11286,7 +11286,7 @@
 		)
 		(uuid "62f02894-c7d2-4966-8ea2-27cee87191ab")
 	)
-	(label "QSPI_D1"
+	(label "right_QSPI_D1"
 		(at 111.76 66.04 0)
 		(effects
 			(font
@@ -11296,7 +11296,7 @@
 		)
 		(uuid "632183d1-3894-4845-87b5-792dd4450c1e")
 	)
-	(label "D5"
+	(label "right_D5"
 		(at 237.49 57.15 180)
 		(effects
 			(font
@@ -11316,7 +11316,7 @@
 		)
 		(uuid "6f141a52-e902-4e3c-b58b-b3b756085bdc")
 	)
-	(label "D+"
+	(label "right_D+"
 		(at -63.5 154.94 0)
 		(effects
 			(font
@@ -11336,7 +11336,7 @@
 		)
 		(uuid "708a382d-e7ee-413f-9942-477b3f3abf4e")
 	)
-	(label "~{RESET}"
+	(label "right_~{RESET}"
 		(at 118.745 106.68 0)
 		(effects
 			(font
@@ -11356,7 +11356,7 @@
 		)
 		(uuid "7bdd55a4-07a9-4e82-b6a7-a05cfb15467f")
 	)
-	(label "D7"
+	(label "right_D7"
 		(at 237.49 62.23 180)
 		(effects
 			(font
@@ -11366,7 +11366,7 @@
 		)
 		(uuid "7cc3df88-9b44-4df7-a2e1-ee08aaaa869a")
 	)
-	(label "D+"
+	(label "right_D+"
 		(at -46.99 43.18 0)
 		(effects
 			(font
@@ -11396,7 +11396,7 @@
 		)
 		(uuid "8272e7cc-2f64-405b-8083-79923cb84ea4")
 	)
-	(label "QSPI_D3"
+	(label "right_QSPI_D3"
 		(at 111.76 71.12 0)
 		(effects
 			(font
@@ -11406,7 +11406,7 @@
 		)
 		(uuid "84e36689-b8e8-4e7c-9195-5fcbef9ece6a")
 	)
-	(label "~{RESET}"
+	(label "right_~{RESET}"
 		(at 44.45 205.105 180)
 		(effects
 			(font
@@ -11416,7 +11416,7 @@
 		)
 		(uuid "86b8a7cf-f1c2-4d95-b0bb-8e11f7db7f9e")
 	)
-	(label "QSPI_~{CS}"
+	(label "right_QSPI_~{CS}"
 		(at 111.76 59.69 0)
 		(effects
 			(font
@@ -11426,7 +11426,7 @@
 		)
 		(uuid "875e3fe7-549a-427f-ab57-eb526f73497e")
 	)
-	(label "D-"
+	(label "right_D-"
 		(at -76.2 96.52 180)
 		(effects
 			(font
@@ -11446,7 +11446,7 @@
 		)
 		(uuid "9a9bc284-0800-43a2-b6fc-1ca310c83864")
 	)
-	(label "D5"
+	(label "right_D5"
 		(at 191.77 71.12 180)
 		(effects
 			(font
@@ -11456,7 +11456,7 @@
 		)
 		(uuid "9d1437fb-2c45-45cd-aa61-d30038fe455c")
 	)
-	(label "QSPI_D2"
+	(label "right_QSPI_D2"
 		(at 267.97 134.62 180)
 		(effects
 			(font
@@ -11466,7 +11466,7 @@
 		)
 		(uuid "9f0665bb-6df7-4863-b0fc-2c4c49cd7549")
 	)
-	(label "D-"
+	(label "right_D-"
 		(at -63.5 152.4 0)
 		(effects
 			(font
@@ -11476,7 +11476,7 @@
 		)
 		(uuid "a1470366-2dd3-4ac9-b593-93570d819970")
 	)
-	(label "D9"
+	(label "right_D9"
 		(at 191.77 81.28 180)
 		(effects
 			(font
@@ -11506,7 +11506,7 @@
 		)
 		(uuid "a5f59945-d764-4a04-9aa9-69c1346ae026")
 	)
-	(label "D+"
+	(label "right_D+"
 		(at 111.76 81.28 0)
 		(effects
 			(font
@@ -11516,7 +11516,7 @@
 		)
 		(uuid "a7d660d6-1d2b-4de1-b969-d8adaa01d07c")
 	)
-	(label "D6"
+	(label "right_D6"
 		(at 237.49 59.69 180)
 		(effects
 			(font
@@ -11566,7 +11566,7 @@
 		)
 		(uuid "bc58b418-5975-4538-bc1b-b5c332dd9137")
 	)
-	(label "D+"
+	(label "right_D+"
 		(at -55.88 96.52 0)
 		(effects
 			(font
@@ -11576,7 +11576,7 @@
 		)
 		(uuid "bd310211-84ae-41bb-af53-1ad27f49708e")
 	)
-	(label "QSPI_D1"
+	(label "right_QSPI_D1"
 		(at 267.97 129.54 180)
 		(effects
 			(font
@@ -11606,7 +11606,7 @@
 		)
 		(uuid "d0e2962a-87c2-4ca3-a781-7acc8d250b77")
 	)
-	(label "D1"
+	(label "right_D1"
 		(at 237.49 41.91 180)
 		(effects
 			(font
@@ -11616,7 +11616,7 @@
 		)
 		(uuid "d461ba64-0270-4845-8ba8-365d62b22d0c")
 	)
-	(label "D-"
+	(label "right_D-"
 		(at -46.99 40.64 0)
 		(effects
 			(font
@@ -11636,7 +11636,7 @@
 		)
 		(uuid "dd313c91-192e-4644-8fff-b38f08d0b0bc")
 	)
-	(label "QSPI_~{CS}"
+	(label "right_QSPI_~{CS}"
 		(at 46.355 160.655 0)
 		(effects
 			(font
@@ -11646,7 +11646,7 @@
 		)
 		(uuid "e3598199-4c74-434a-a45f-670014ffcc36")
 	)
-	(label "QSPI_SCLK"
+	(label "right_QSPI_SCLK"
 		(at 111.76 74.93 0)
 		(effects
 			(font
@@ -11656,7 +11656,7 @@
 		)
 		(uuid "e50e485d-9765-40ec-aa66-664af237f7a3")
 	)
-	(label "QSPI_D3"
+	(label "right_QSPI_D3"
 		(at 267.97 137.16 180)
 		(effects
 			(font
@@ -11676,7 +11676,7 @@
 		)
 		(uuid "edac3f10-e1eb-4543-a5af-847ce26ffc37")
 	)
-	(label "D0"
+	(label "right_D0"
 		(at 191.77 58.42 180)
 		(effects
 			(font
@@ -11716,7 +11716,7 @@
 		)
 		(uuid "f5697e41-b2d9-4a96-a815-c27354509ddc")
 	)
-	(label "~{RESET}"
+	(label "right_~{RESET}"
 		(at 43.815 214.63 180)
 		(effects
 			(font
@@ -11726,7 +11726,7 @@
 		)
 		(uuid "f5f371cd-a783-4520-b38f-c9748d7a0b41")
 	)
-	(label "QSPI_D0"
+	(label "right_QSPI_D0"
 		(at 111.76 63.5 0)
 		(effects
 			(font
@@ -11736,7 +11736,7 @@
 		)
 		(uuid "f7d90c02-516c-4d72-a8a1-80ce0105ec8d")
 	)
-	(label "D4"
+	(label "right_D4"
 		(at 237.49 54.61 180)
 		(effects
 			(font
@@ -11857,7 +11857,7 @@
 			)
 		)
 	)
-	(global_label "serial_l2"
+	(global_label "right_serial_l2"
 		(shape input)
 		(at 312.42 99.06 180)
 		(effects
@@ -11920,7 +11920,7 @@
 			)
 		)
 	)
-	(global_label "serial_l"
+	(global_label "right_serial_l"
 		(shape input)
 		(at 312.42 96.52 180)
 		(effects
@@ -12083,7 +12083,7 @@
 			)
 		)
 	)
-	(global_label "serial_l"
+	(global_label "right_serial_l"
 		(shape input)
 		(at -140.97 44.45 0)
 		(effects
@@ -12305,7 +12305,7 @@
 			)
 		)
 	)
-	(global_label "serial_l2"
+	(global_label "right_serial_l2"
 		(shape input)
 		(at -140.97 41.91 0)
 		(effects
@@ -12407,7 +12407,7 @@
 			)
 		)
 	)
-	(global_label "serial_l"
+	(global_label "right_serial_l"
 		(shape input)
 		(at 228.6 41.91 180)
 		(effects
@@ -12508,7 +12508,7 @@
 			)
 		)
 	)
-	(global_label "serial_l2"
+	(global_label "right_serial_l2"
 		(shape input)
 		(at -134.62 87.63 0)
 		(effects
@@ -12954,7 +12954,7 @@
 			)
 		)
 	)
-	(global_label "serial_l2"
+	(global_label "right_serial_l2"
 		(shape input)
 		(at 182.88 88.9 0)
 		(effects
@@ -13015,7 +13015,7 @@
 			)
 		)
 	)
-	(global_label "serial_l"
+	(global_label "right_serial_l"
 		(shape input)
 		(at -168.91 87.63 180)
 		(effects
@@ -13280,7 +13280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at -56.5151 150.016 90)
 			(effects
 				(font
@@ -13814,7 +13814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at 40.005 158.75 0)
 			(effects
 				(font
@@ -13879,7 +13879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 55.245 189.865 0)
 			(effects
 				(font
@@ -13944,7 +13944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_USB_DETECT"
+		(property "Value" "right_V_USB_DETECT"
 			(at -27.94 44.45 0)
 			(effects
 				(font
@@ -14201,7 +14201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 24.765 190.5 0)
 			(effects
 				(font
@@ -14390,7 +14390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at -151.286 104.7749 90)
 			(effects
 				(font
@@ -14914,7 +14914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 425.45 36.83 90)
 			(effects
 				(font
@@ -15058,7 +15058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 60.9599 214.786 90)
 			(effects
 				(font
@@ -15202,7 +15202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "right_VBUS"
 			(at 336.55 153.67 0)
 			(effects
 				(font
@@ -15543,7 +15543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at -37.973 37.4142 0)
 			(effects
 				(font
@@ -15779,7 +15779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at -127.127 14.6558 0)
 			(effects
 				(font
@@ -15995,7 +15995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 82.55 190.5 0)
 			(effects
 				(font
@@ -16222,7 +16222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at -35.687 13.3858 0)
 			(effects
 				(font
@@ -16286,7 +16286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 306.07 35.56 90)
 			(effects
 				(font
@@ -16352,7 +16352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "right_VBUS"
 			(at 330.2 26.67 0)
 			(effects
 				(font
@@ -16493,7 +16493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at -168.783 70.4342 0)
 			(effects
 				(font
@@ -16636,7 +16636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -16979,7 +16979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at 82.55 170.18 0)
 			(effects
 				(font
@@ -17610,7 +17610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 58.264 88.2649 90)
 			(effects
 				(font
@@ -17752,7 +17752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 121.92 190.5 0)
 			(effects
 				(font
@@ -17817,7 +17817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at 331.47 153.67 0)
 			(effects
 				(font
@@ -17882,7 +17882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "right_VBUS"
 			(at 33.02 105.41 0)
 			(effects
 				(font
@@ -18168,7 +18168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "right_VBUS"
 			(at 421.64 43.18 0)
 			(effects
 				(font
@@ -18366,7 +18366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 334.01 181.61 0)
 			(effects
 				(font
@@ -18656,7 +18656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at 58.42 105.41 0)
 			(effects
 				(font
@@ -18799,7 +18799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at 320.04 172.72 0)
 			(effects
 				(font
@@ -18864,7 +18864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at 243.84 114.3 0)
 			(effects
 				(font
@@ -18929,7 +18929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 91.44 190.5 0)
 			(effects
 				(font
@@ -18994,7 +18994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 154.94 149.86 0)
 			(effects
 				(font
@@ -19385,7 +19385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at -73.533 69.1642 0)
 			(effects
 				(font
@@ -19449,7 +19449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 101.6 190.5 0)
 			(effects
 				(font
@@ -19666,7 +19666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at 121.92 170.18 0)
 			(effects
 				(font
@@ -19975,7 +19975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at -151.13 73.66 0)
 			(effects
 				(font
@@ -20275,7 +20275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at 312.42 19.05 0)
 			(effects
 				(font
@@ -20419,7 +20419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "right_VBUS"
 			(at -66.04 85.09 0)
 			(effects
 				(font
@@ -20484,7 +20484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 61.5949 205.261 90)
 			(effects
 				(font
@@ -20628,7 +20628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 243.84 148.59 0)
 			(effects
 				(font
@@ -20693,7 +20693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 105.41 111.76 0)
 			(effects
 				(font
@@ -20758,7 +20758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at 431.8 30.48 0)
 			(effects
 				(font
@@ -20823,7 +20823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at -134.776 41.2749 90)
 			(effects
 				(font
@@ -20889,7 +20889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 46.99 132.08 0)
 			(effects
 				(font
@@ -21020,7 +21020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 198.12 120.015 0)
 			(effects
 				(font
@@ -21085,7 +21085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 327.0251 29.054 90)
 			(effects
 				(font
@@ -21151,7 +21151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 340.9949 122.076 90)
 			(effects
 				(font
@@ -21283,7 +21283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at 336.55 129.54 0)
 			(effects
 				(font
@@ -21348,7 +21348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at 134.62 33.02 0)
 			(effects
 				(font
@@ -21555,7 +21555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "right_+3V3"
 			(at 171.45 33.02 0)
 			(effects
 				(font
@@ -21620,7 +21620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "right_VBUS"
 			(at -116.84 22.86 0)
 			(effects
 				(font
@@ -21685,7 +21685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at 51.914 88.2649 90)
 			(effects
 				(font
@@ -21829,7 +21829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_USB_DETECT"
+		(property "Value" "right_V_USB_DETECT"
 			(at 198.12 93.345 0)
 			(effects
 				(font
@@ -21894,7 +21894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "right_GND"
 			(at -65.913 113.6142 0)
 			(effects
 				(font
@@ -21958,7 +21958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "right_VBUS"
 			(at -15.24 21.59 0)
 			(effects
 				(font
