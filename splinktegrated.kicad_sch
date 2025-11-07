@@ -7696,19 +7696,6 @@
 		)
 		(uuid "2fd229e7-781a-44ed-8a2d-670aeeb71fcb")
 	)
-	(text "Old"
-		(exclude_from_sim no)
-		(at -67.31 384.81 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e979504-910e-4f15-86b2-fb1641441df2")
-	)
 	(text "Indicator & buttons"
 		(exclude_from_sim no)
 		(at 17.78 151.13 0)
@@ -10032,16 +10019,6 @@
 		)
 		(uuid "40feebec-2d8a-4816-944e-44f99b71b263")
 	)
-	(wire
-		(pts
-			(xy -53.34 391.16) (xy -44.45 391.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41efcf8d-c892-4e16-97f4-76254340914e")
-	)
 	(polyline
 		(pts
 			(xy 445.135 23.495) (xy 445.135 72.39)
@@ -11154,16 +11131,6 @@
 	)
 	(wire
 		(pts
-			(xy -53.34 388.62) (xy -44.45 388.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ca5ed3d-b5ed-4564-9258-353e0be73453")
-	)
-	(wire
-		(pts
 			(xy 287.02 370.84) (xy 275.59 370.84)
 		)
 		(stroke
@@ -11511,16 +11478,6 @@
 			(type default)
 		)
 		(uuid "7b41b69a-0e32-474f-a8e7-35c3b1c0f26c")
-	)
-	(wire
-		(pts
-			(xy -53.34 396.24) (xy -44.45 396.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c8baa41-f203-4bf0-be11-fa5e3db6c75e")
 	)
 	(wire
 		(pts
@@ -12461,16 +12418,6 @@
 			(type default)
 		)
 		(uuid "b062d941-b565-48a6-881a-65b4f42dd474")
-	)
-	(wire
-		(pts
-			(xy -53.34 393.7) (xy -44.45 393.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d0e057-efe4-4d23-ad62-524489d38918")
 	)
 	(polyline
 		(pts
@@ -14482,16 +14429,6 @@
 		)
 		(uuid "09391a6d-09ca-40ac-9237-e8ae9e0488da")
 	)
-	(label "D-_daughter"
-		(at -53.34 393.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "098a520c-40df-4449-9020-70d2358627fc")
-	)
 	(label "right_SCLK"
 		(at 274.32 300.99 0)
 		(effects
@@ -14972,26 +14909,6 @@
 		)
 		(uuid "59af45c2-cf2d-4761-9576-ffd92aaf78f2")
 	)
-	(label "Vbus_mother"
-		(at -44.45 388.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a99379f-196b-46bc-b9ef-71a9d2196a4f")
-	)
-	(label "right_D-"
-		(at -44.45 393.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e6dbb20-47b1-4ab2-8bba-f31ea12f811b")
-	)
 	(label "right_D0"
 		(at 210.82 299.72 180)
 		(effects
@@ -15072,26 +14989,6 @@
 		)
 		(uuid "66b0a9a3-5e52-4326-b81f-62d0c5155caa")
 	)
-	(label "right_D+"
-		(at -44.45 396.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69685b7d-1d76-43cd-b88d-768ad5324714")
-	)
-	(label "D+_daughter"
-		(at -53.34 396.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6993d869-458f-4db9-9e4f-1157b8c1fd6f")
-	)
 	(label "right_D14"
 		(at 322.58 335.28 0)
 		(effects
@@ -15171,16 +15068,6 @@
 			(justify left bottom)
 		)
 		(uuid "721c0a1e-1ddf-4e56-a835-59436dd8fd8d")
-	)
-	(label "Vbus_daughter"
-		(at -53.34 388.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7512164c-2325-40f5-aacc-28b4077ab334")
 	)
 	(label "right_SCLK"
 		(at 210.82 355.6 180)
@@ -15732,16 +15619,6 @@
 		)
 		(uuid "c8810ed6-58a1-48fa-a92f-b44885eed2a5")
 	)
-	(label "Gnd_daughter"
-		(at -53.34 391.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c9779fb3-4488-4f7d-9a27-3faba0aa78f2")
-	)
 	(label "right_LED"
 		(at 210.82 342.9 180)
 		(effects
@@ -16012,7 +15889,7 @@
 		)
 		(uuid "ffa35506-f503-4103-9779-48503fe62c17")
 	)
-	(global_label "rgb_5V"
+	(global_label "right_rgb_5V"
 		(shape input)
 		(at 353.06 273.05 180)
 		(effects
@@ -16684,7 +16561,7 @@
 			)
 		)
 	)
-	(global_label "rgb_5V"
+	(global_label "right_rgb_5V"
 		(shape input)
 		(at 450.85 285.75 180)
 		(effects
@@ -18126,7 +18003,7 @@
 			)
 		)
 	)
-	(global_label "rgb_5V"
+	(global_label "right_rgb_5V"
 		(shape input)
 		(at 363.22 408.94 0)
 		(effects
@@ -24949,72 +24826,6 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "right_C9000")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -44.45 391.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a7f83e8-9aff-4f47-860c-6b62a27b5c25")
-		(property "Reference" "#PWR058"
-			(at -38.1 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "right_GND"
-			(at -37.4651 391.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -44.45 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -44.45 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -44.45 391.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d565f494-ccd0-4b36-ba5b-51d36251d755")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
