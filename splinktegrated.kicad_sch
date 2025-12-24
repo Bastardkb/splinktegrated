@@ -19177,7 +19177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "drawings:PinHeader_1x02_P1.27mm_Vertical"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KXT3"
 			(at 69.215 174.625 0)
 			(effects
 				(font
@@ -19248,7 +19248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "drawings:PinHeader_1x02_P1.27mm_Vertical"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KXT3"
 			(at 88.265 415.925 0)
 			(effects
 				(font
