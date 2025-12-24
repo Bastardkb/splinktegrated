@@ -19154,9 +19154,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "06b6e523-10ae-4799-8871-3c7a3a700ad9")
 		(property "Reference" "J5"
 			(at 67.945 177.165 0)
@@ -19204,6 +19204,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C319433"
+			(at 69.215 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ccafc2c6-36ae-41c2-8260-21a77b96b960")
 		)
@@ -19225,9 +19233,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "06b6e523-10ae-4799-8871-3c7a3a700ada")
 		(property "Reference" "right_J9004"
 			(at 86.995 418.465 0)
@@ -19273,6 +19281,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C319433"
+			(at 88.265 415.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
