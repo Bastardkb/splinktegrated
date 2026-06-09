@@ -19793,6 +19793,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 424.18 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07a5446d-6ec0-40c4-9fa1-6e81abee4dab")
+		(property "Reference" "D15"
+			(at 424.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 424.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 424.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 424.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 424.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 424.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2c98fd2-868c-4285-b671-a582674ae1d2")
+		)
+		(pin "2"
+			(uuid "71ba5ff6-bd98-4ffa-90d1-63cfee836218")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at -45.72 30.48 90)
 		(unit 1)
@@ -23842,6 +23918,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 439.42 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "353468e8-6a4b-41ae-9c6a-6adc0f783803")
+		(property "Reference" "D17"
+			(at 439.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 439.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 439.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 439.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 439.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 439.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6051b474-767f-4878-a429-6698d3fb1c96")
+		)
+		(pin "2"
+			(uuid "2dce9e8e-3563-471f-a7ba-e1876b0ee22f")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 422.91 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "371564fb-dd9c-43ee-a559-35e0280f3934")
+		(property "Reference" "D12"
+			(at 422.91 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 422.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 422.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 422.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 422.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 422.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b979afaa-30da-4fac-a9b1-57a1fd94f552")
+		)
+		(pin "2"
+			(uuid "7ab86a74-324b-4ffa-914a-80c7e215b00c")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 121.92 180.34 0)
 		(unit 1)
@@ -24121,6 +24349,82 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 454.66 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e012239-ba05-410a-bdde-b4a6afbf3f31")
+		(property "Reference" "D20"
+			(at 454.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 454.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 454.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 454.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 454.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 454.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d5a53a1-b834-43aa-9b58-2f35167fd873")
+		)
+		(pin "2"
+			(uuid "d2d7786b-38c6-4c75-a66e-5a6e3cde33e7")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -25080,6 +25384,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 421.64 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d7c465f-7a48-443f-9014-97be4a6fc4c0")
+		(property "Reference" "D11"
+			(at 421.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 421.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 421.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 421.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 421.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 421.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69e83d25-adeb-4ecf-b45a-295aa361b8d4")
+		)
+		(pin "2"
+			(uuid "6b32d30e-8b07-43eb-963f-3b68525447b1")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 312.42 35.56 270)
 		(unit 1)
@@ -25271,6 +25651,82 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 389.89 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5551329e-11d0-46db-a226-7dfaae6f5ed2")
+		(property "Reference" "D3"
+			(at 389.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 389.89 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 389.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 389.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 389.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8edbbb23-7b90-4f9e-bc6f-cfcc9f1b32a3")
+		)
+		(pin "2"
+			(uuid "74b142e6-3f30-46a1-8717-c061e264bf48")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -27595,6 +28051,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 406.4 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e053d6e-f6ad-496d-81b6-6d07032afc04")
+		(property "Reference" "D5"
+			(at 406.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 406.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 406.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 406.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 406.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 406.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60ca079c-358d-4bf7-9521-4ba215d5b6d1")
+		)
+		(pin "2"
+			(uuid "17f22021-9fd5-42be-8945-d072da4f7e31")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 24.765 181.61 180)
 		(unit 1)
@@ -27871,6 +28403,82 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 405.13 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8470f58d-114f-48c4-bdaa-b5bf39cbbfdf")
+		(property "Reference" "D9"
+			(at 405.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 405.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 405.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 405.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 405.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 405.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "493740db-7f80-43f0-b91c-c2311f859a95")
+		)
+		(pin "2"
+			(uuid "f8a71a3b-9a14-462e-84ae-0fd8105332cc")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -28222,6 +28830,82 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 420.37 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "889ff385-bd30-4cbf-b151-fb4773d95090")
+		(property "Reference" "D10"
+			(at 420.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 420.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 420.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 420.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 420.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 420.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a627c99-6988-4038-91b5-a0708b7b2145")
+		)
+		(pin "2"
+			(uuid "2f6438fd-70f5-4d9d-a5e7-e78eb3745e26")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -28842,6 +29526,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 438.15 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90a3c04b-f930-4dfd-9141-649a7c58d06e")
+		(property "Reference" "D16"
+			(at 438.15 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 438.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 438.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 438.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 438.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 438.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97051d1c-5c2d-4a9b-80c9-0a9dcd59cf95")
+		)
+		(pin "2"
+			(uuid "abf5973f-3735-4bfe-a70e-1b961a875e6f")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 217.17 338.455 0)
 		(unit 1)
@@ -28901,6 +29661,158 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 440.69 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91a794cb-4e8f-4330-88ee-2c4843f6069f")
+		(property "Reference" "D19"
+			(at 440.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 440.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 440.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 440.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 440.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 440.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6579f40-da70-438a-bd35-36fda340fbb9")
+		)
+		(pin "2"
+			(uuid "3aaf2413-082e-4676-98b0-e10c17f7e450")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 389.89 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9261c448-6ebc-4613-9843-62f987a72a03")
+		(property "Reference" "D7"
+			(at 389.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 389.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 389.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 389.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 389.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1c1d4b3-bae9-49e8-a876-6d62f02e7b40")
+		)
+		(pin "2"
+			(uuid "b4fc27bf-7012-4596-b856-8d0a08dc260e")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -29416,6 +30328,82 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 455.93 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b55d274-0ed5-4c88-9b09-e94c133f3245")
+		(property "Reference" "D21"
+			(at 455.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 455.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 455.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 455.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 455.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 455.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "973f4d85-19b8-4dd3-a76f-2268173d1bec")
+		)
+		(pin "2"
+			(uuid "27c988c0-1051-452f-9fdf-39511c12c696")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -30250,6 +31238,82 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "right_FB9001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 405.13 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5d07a68-49ec-4c82-94b8-3b5be1ebe8fb")
+		(property "Reference" "D4"
+			(at 405.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 405.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 405.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 405.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 405.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 405.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5078acf-f4d4-4960-9c89-23928191aa1b")
+		)
+		(pin "2"
+			(uuid "ca774366-2d31-4ed9-a075-07a4db3aaedf")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -33017,6 +34081,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 422.91 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6ac89ff-b7bb-4098-b909-a392b2f24076")
+		(property "Reference" "D13"
+			(at 422.91 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 422.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 422.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 422.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 422.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 422.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55e6557f-54ec-4a72-bb06-66c49448d42b")
+		)
+		(pin "2"
+			(uuid "3f04fc1c-8f41-4854-8217-e996efbf1a32")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 54.61 205.105 90)
 		(unit 1)
@@ -33498,6 +34638,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 403.86 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf756f6f-fb48-4166-b2a2-185d7e1e2743")
+		(property "Reference" "D8"
+			(at 403.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 403.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 403.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 403.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 403.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 403.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b175691c-a012-4946-85e5-49cc6ff00ffb")
+		)
+		(pin "2"
+			(uuid "dedd6521-2e8b-49ab-8e5f-9e61168cf70e")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at -134.62 34.29 0)
 		(unit 1)
@@ -33884,6 +35100,82 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 388.62 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da100875-9c63-4042-b3b4-32b2eb7e477b")
+		(property "Reference" "D5085"
+			(at 388.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 388.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 388.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 388.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 388.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 388.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79a926dd-214c-47fd-b248-b40085749f77")
+		)
+		(pin "2"
+			(uuid "3052f471-7612-46a0-adaf-a6897071c1f8")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D5085")
 					(unit 1)
 				)
 			)
@@ -34407,6 +35699,82 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 388.62 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd240144-805a-4cba-b353-9bd96ebf56d9")
+		(property "Reference" "D6"
+			(at 388.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 388.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 388.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 388.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 388.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 388.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af894217-d714-4b80-99e9-faf36e7a32ad")
+		)
+		(pin "2"
+			(uuid "40a63a94-1b39-4f1d-be12-b002e0d24bba")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -35088,6 +36456,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 424.18 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edfe2d69-87cc-495e-86de-a8ee77baeb7e")
+		(property "Reference" "D14"
+			(at 424.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 424.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 424.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 424.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 424.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 424.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6152c3c0-802e-4322-92c7-223282807c27")
+		)
+		(pin "2"
+			(uuid "ea567aa8-096f-4862-9ccf-fd92135abd7a")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.295 427.355 0)
 		(unit 1)
@@ -35498,6 +36942,82 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 439.42 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbacf840-c29c-4f6e-8f00-6e1036811b7e")
+		(property "Reference" "D18"
+			(at 439.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 439.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 439.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 439.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 439.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C355254"
+			(at 439.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4ea5ea4-a0b5-4986-af44-7b5dbe812a72")
+		)
+		(pin "2"
+			(uuid "6b453e3c-9fd1-4c5c-ae41-c37e989ddfe7")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "D18")
 					(unit 1)
 				)
 			)
