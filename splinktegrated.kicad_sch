@@ -7863,6 +7863,12 @@
 		(uuid "19277a20-bdfc-47ba-8854-032af4f207f3")
 	)
 	(junction
+		(at 496.57 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b0056ba-a05e-4a00-b115-e71321235e62")
+	)
+	(junction
 		(at 158.75 416.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7903,6 +7909,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22d98a6d-4cb1-4200-ae1a-82b4e9f47dfe")
+	)
+	(junction
+		(at 496.57 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24491197-c857-48ab-89d9-8b1a92704aab")
 	)
 	(junction
 		(at 248.92 370.84)
@@ -7963,6 +7975,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "487461f7-9658-4726-8b03-ec74e5dceb85")
+	)
+	(junction
+		(at 496.57 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "492487c8-bc6d-43f9-aa1b-3d6ce1537200")
 	)
 	(junction
 		(at 52.07 356.87)
@@ -8079,6 +8097,18 @@
 		(uuid "73eba327-17b7-4b2a-b0b6-9fd91ecab930")
 	)
 	(junction
+		(at 496.57 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74fe296b-d401-4b8d-83b1-b2d4c570adee")
+	)
+	(junction
+		(at 496.57 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75f6e56e-5f2a-4d3e-aa6f-758233dbccb3")
+	)
+	(junction
 		(at -73.66 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8175,6 +8205,12 @@
 		(uuid "a345ba8d-e0de-4118-bbbe-84ad4bdd0e83")
 	)
 	(junction
+		(at 496.57 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8b2d8f4-1e6c-4559-8eb2-ca65e98bf085")
+	)
+	(junction
 		(at 179.07 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8235,10 +8271,28 @@
 		(uuid "b9a67312-366c-41a6-bec4-f6c6c427acfa")
 	)
 	(junction
+		(at 496.57 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bba4c0b6-3a6d-43a4-8ee8-d20ea0b5fe87")
+	)
+	(junction
 		(at -54.61 306.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "beba224a-498c-4deb-a429-3a1fc4f6b954")
+	)
+	(junction
+		(at 496.57 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1904e42-7e31-4af0-bfff-247fb23d6d78")
+	)
+	(junction
+		(at 496.57 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3d2db66-7210-4828-b138-082bc4afb05a")
 	)
 	(junction
 		(at 130.81 337.82)
@@ -8317,6 +8371,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8985dba-1316-4e72-9e87-1063df49233e")
+	)
+	(junction
+		(at 496.57 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da59bfe5-e0ff-4ab6-9cfb-d563d842a84c")
 	)
 	(junction
 		(at 243.84 119.38)
@@ -8499,6 +8559,16 @@
 			(type default)
 		)
 		(uuid "002b248e-62f9-4179-9a1d-023160345228")
+	)
+	(wire
+		(pts
+			(xy 496.57 129.54) (xy 499.11 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003a2b09-319b-427f-8c62-9ece5b72dc4c")
 	)
 	(polyline
 		(pts
@@ -9472,6 +9542,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 124.46) (xy 499.11 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab73aa6-978a-4a44-ae02-a5b761698b4e")
+	)
+	(wire
+		(pts
 			(xy 121.92 175.26) (xy 130.81 175.26)
 		)
 		(stroke
@@ -9669,6 +9749,16 @@
 			(type default)
 		)
 		(uuid "3158f6ad-0d52-44f0-b3e2-3f55e3c285d1")
+	)
+	(wire
+		(pts
+			(xy 496.57 114.3) (xy 496.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e86094-0f8b-49d9-acbc-74720adb0399")
 	)
 	(wire
 		(pts
@@ -9932,6 +10022,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 90.17) (xy 496.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8d3693-6b7b-446f-841d-a5ffeeb87aee")
+	)
+	(wire
+		(pts
 			(xy 124.46 93.98) (xy 127 93.98)
 		)
 		(stroke
@@ -10172,6 +10272,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 102.87) (xy 499.11 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48cb26a1-3b8c-4a52-b41d-0114b2aff7f6")
+	)
+	(wire
+		(pts
 			(xy -132.08 288.29) (xy -134.62 288.29)
 		)
 		(stroke
@@ -10262,6 +10372,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 109.22) (xy 496.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3714f2-1619-4408-b10a-967d4af682e2")
+	)
+	(wire
+		(pts
 			(xy -35.56 281.94) (xy -39.37 281.94)
 		)
 		(stroke
@@ -10289,6 +10409,16 @@
 			(type default)
 		)
 		(uuid "4b96e30f-a1ab-46c1-b45e-73dc790d19c5")
+	)
+	(wire
+		(pts
+			(xy 496.57 90.17) (xy 499.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bfda03b-dc3e-4339-aff4-279b7eedf618")
 	)
 	(polyline
 		(pts
@@ -10539,6 +10669,16 @@
 			(type default)
 		)
 		(uuid "55c68d16-ed30-4f6a-b50d-360c4d76912b")
+	)
+	(wire
+		(pts
+			(xy 495.3 134.62) (xy 496.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e1b15c-fb48-4769-82ec-7087c086f0ac")
 	)
 	(wire
 		(pts
@@ -10939,6 +11079,16 @@
 			(type default)
 		)
 		(uuid "640e44c9-0d55-4598-afbc-70e4f08d4e7d")
+	)
+	(wire
+		(pts
+			(xy 495.3 96.52) (xy 496.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643f778e-ed6d-4b1f-a223-3ec869861d3a")
 	)
 	(wire
 		(pts
@@ -11382,6 +11532,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 124.46) (xy 496.57 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7686e80d-f38f-417d-b44d-8d63a4646cb8")
+	)
+	(wire
+		(pts
 			(xy 228.6 57.15) (xy 237.49 57.15)
 		)
 		(stroke
@@ -11540,6 +11700,16 @@
 		)
 		(uuid "7f000c54-40f6-42d0-9681-b26c9d6738e4")
 	)
+	(wire
+		(pts
+			(xy 496.57 134.62) (xy 499.11 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcedf47-bb29-41d0-a97a-e23d913a7ebb")
+	)
 	(polyline
 		(pts
 			(xy 369.57 23.495) (xy 404.495 23.495)
@@ -11670,6 +11840,16 @@
 		)
 		(uuid "890b0aec-7059-43f2-a083-3dfcae20a844")
 	)
+	(wire
+		(pts
+			(xy 495.3 85.09) (xy 496.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89162226-007a-4567-929b-85e5f31f1d42")
+	)
 	(polyline
 		(pts
 			(xy -170.815 249.555) (xy -88.265 249.555)
@@ -11709,6 +11889,16 @@
 			(type default)
 		)
 		(uuid "8c423235-8d83-44cd-b8f4-fad0d94b79db")
+	)
+	(wire
+		(pts
+			(xy 496.57 96.52) (xy 499.11 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c59eda3-3167-48e1-81c5-d838cf68d578")
 	)
 	(wire
 		(pts
@@ -11952,6 +12142,36 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 109.22) (xy 499.11 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95869af3-c974-43ff-9308-4413bda8e172")
+	)
+	(wire
+		(pts
+			(xy 496.57 85.09) (xy 499.11 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ce53a5-9b65-4726-a76c-0f30c4d3f773")
+	)
+	(wire
+		(pts
+			(xy 495.3 109.22) (xy 496.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97267e86-0334-4323-be8f-069ba4348cc2")
+	)
+	(wire
+		(pts
 			(xy 160.02 38.1) (xy 160.02 40.64)
 		)
 		(stroke
@@ -11999,6 +12219,16 @@
 			(type default)
 		)
 		(uuid "9adcb13f-2ab4-4ed4-8261-1fc58ed917b4")
+	)
+	(wire
+		(pts
+			(xy 495.3 102.87) (xy 496.57 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af0ee5d-cd36-43cd-8edc-d94eb0f46a6d")
 	)
 	(wire
 		(pts
@@ -12290,6 +12520,16 @@
 		)
 		(uuid "a80f164c-3084-4ac0-a1f3-ac67e505e0e0")
 	)
+	(wire
+		(pts
+			(xy 495.3 90.17) (xy 496.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81f229b-d519-4ce2-b27b-7a41c4ccbaf0")
+	)
 	(polyline
 		(pts
 			(xy -190.5 129.54) (xy -189.865 8.255)
@@ -12542,6 +12782,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 124.46) (xy 496.57 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3bd45fa-68b8-47a1-94d5-5754f2d406d7")
+	)
+	(wire
+		(pts
 			(xy 52.07 368.3) (xy 66.04 368.3)
 		)
 		(stroke
@@ -12719,6 +12969,16 @@
 			(type default)
 		)
 		(uuid "b9b13917-40f5-4560-a23d-63ee576e249e")
+	)
+	(wire
+		(pts
+			(xy 496.57 102.87) (xy 496.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba01b90f-1de9-476d-b7e1-b2b46e2f32e5")
 	)
 	(wire
 		(pts
@@ -12922,6 +13182,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 134.62) (xy 496.57 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a7f296-3e56-401e-b268-db29c82d8d65")
+	)
+	(wire
+		(pts
 			(xy 93.98 104.14) (xy 97.79 106.68)
 		)
 		(stroke
@@ -13032,6 +13302,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 85.09) (xy 496.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8293a4d-7bac-4636-bfaf-334d45bf5deb")
+	)
+	(wire
+		(pts
 			(xy 182.88 60.96) (xy 191.77 60.96)
 		)
 		(stroke
@@ -13119,6 +13399,16 @@
 			(type default)
 		)
 		(uuid "ccb24e37-982a-4691-9e3d-cd8e4b000dbf")
+	)
+	(wire
+		(pts
+			(xy 495.3 114.3) (xy 496.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3bbccf-0e6c-4ac8-857c-2d657f61e9d8")
 	)
 	(wire
 		(pts
@@ -13230,6 +13520,16 @@
 		)
 		(uuid "d0720f07-d6c2-4d3c-b4e7-a0d3911fd9a1")
 	)
+	(wire
+		(pts
+			(xy 496.57 96.52) (xy 496.57 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b39050-c7ab-4afa-becf-aae91c968643")
+	)
 	(polyline
 		(pts
 			(xy -107.315 76.835) (xy -107.315 129.54)
@@ -13289,6 +13589,16 @@
 			(type default)
 		)
 		(uuid "d2c6cf20-c53b-4c9a-ae80-1efabd780c96")
+	)
+	(wire
+		(pts
+			(xy 495.3 129.54) (xy 496.57 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a43a6b-4f9b-45fb-8624-e6ee9233a2f1")
 	)
 	(wire
 		(pts
@@ -14142,6 +14452,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 119.38) (xy 496.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5154afa-511f-494d-b2e6-df8a204bd5a1")
+	)
+	(wire
+		(pts
 			(xy 182.88 71.12) (xy 191.77 71.12)
 		)
 		(stroke
@@ -14239,6 +14559,16 @@
 			(type default)
 		)
 		(uuid "f771b444-16ff-470e-927e-4ee68311fbff")
+	)
+	(wire
+		(pts
+			(xy 496.57 119.38) (xy 496.57 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7730c67-86f2-454b-9ba4-fde8099aa3e2")
 	)
 	(wire
 		(pts
@@ -14359,6 +14689,16 @@
 			(type default)
 		)
 		(uuid "fcddd5c4-4014-4e5c-a235-79a90e0ba34c")
+	)
+	(wire
+		(pts
+			(xy 496.57 129.54) (xy 496.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce55e3f-fa89-4b22-8fc0-231b7cebbb4f")
 	)
 	(wire
 		(pts
@@ -14539,6 +14879,16 @@
 			(justify right bottom)
 		)
 		(uuid "116a3374-ee8f-4976-b753-6b9714812860")
+	)
+	(label "D14"
+		(at 506.73 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15806f3a-a532-4130-a323-8ea006d7602c")
 	)
 	(label "SCLK"
 		(at 191.77 114.3 180)
@@ -15620,6 +15970,16 @@
 		)
 		(uuid "be126254-ec3e-4722-848d-694f4eb36f70")
 	)
+	(label "D13"
+		(at 506.73 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be1fc2d0-8b23-49e5-aa05-abaf0513fd76")
+	)
 	(label "right_VBUS_DET"
 		(at 214.63 347.98 180)
 		(effects
@@ -16121,6 +16481,26 @@
 			)
 		)
 	)
+	(global_label "col4_l"
+		(shape input)
+		(at 487.68 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bc9363e-654d-4130-8d8c-99db99bbd1d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "serial_l2"
 		(shape input)
 		(at 312.42 99.06 180)
@@ -16450,6 +16830,26 @@
 			)
 		)
 	)
+	(global_label "row4_l"
+		(shape input)
+		(at 487.68 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ceac7d0-1f64-47ed-89b2-c19a80f8fdcc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "right_col4_l"
 		(shape input)
 		(at 247.65 300.99 180)
@@ -16572,6 +16972,26 @@
 			)
 		)
 	)
+	(global_label "row2_l"
+		(shape input)
+		(at 487.68 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4226368f-9572-440c-98cf-bfeb8fd8c901")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "serial_l"
 		(shape input)
 		(at -140.97 44.45 0)
@@ -16609,6 +17029,27 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mosi_l"
+		(shape input)
+		(at 506.73 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "446b2304-10f9-46cc-bb50-f16f08457b96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 513.6183 124.5394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -16916,6 +17357,26 @@
 	)
 	(global_label "col3_l"
 		(shape input)
+		(at 487.68 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5998e8e1-f639-4790-99d5-148db3d5d6c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3_l"
+		(shape input)
 		(at 391.16 59.69 180)
 		(effects
 			(font
@@ -16946,6 +17407,46 @@
 		(uuid "5b4b9fcc-274b-4c0e-94f7-e54703ad7f2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 381 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1_l"
+		(shape input)
+		(at 506.73 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b548fe2-81ae-426a-809c-2a28987bd65b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 535.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2_l"
+		(shape input)
+		(at 487.68 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e64a69f-2f37-447e-9ded-f6e300f846f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.47 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17015,6 +17516,26 @@
 			)
 		)
 	)
+	(global_label "col6_l"
+		(shape input)
+		(at 487.68 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66701038-94b4-4cc9-9406-9d70fbb4a12f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.47 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row2_l"
 		(shape input)
 		(at 353.06 33.02 180)
@@ -17031,6 +17552,27 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "miso_l"
+		(shape input)
+		(at 506.73 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "675c8773-150c-49ae-8e4c-30e198ea6da3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 513.6183 96.5994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -17179,6 +17721,27 @@
 			)
 		)
 	)
+	(global_label "sc_l"
+		(shape input)
+		(at 506.73 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "760e88b7-68e1-4f7c-a176-9fb650de09ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 511.2598 90.2494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "right_col2_l"
 		(shape input)
 		(at 372.11 269.24 180)
@@ -17215,6 +17778,27 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ss_l"
+		(shape input)
+		(at 506.73 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79e1f21d-1e18-46a7-875f-74f2c722526a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 511.1993 102.9494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -17256,6 +17840,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row3_l"
+		(shape input)
+		(at 487.68 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84b4bacd-6771-467e-bb33-71ab70b6b923")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17537,6 +18141,26 @@
 		(uuid "a0ed1a73-75e1-43b9-96b9-72faa3f0d7c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 494.03 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1_l"
+		(shape input)
+		(at 487.68 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0f707e9-c031-48d2-83e6-64f69adc012d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.47 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18152,6 +18776,26 @@
 			)
 		)
 	)
+	(global_label "rgb_3v3"
+		(shape input)
+		(at 506.73 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e93d6200-a4fe-444b-a4eb-8c47dd2445b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 594.36 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "right_row1_l"
 		(shape input)
 		(at 372.11 266.7 180)
@@ -18245,6 +18889,26 @@
 		(uuid "ef8c4840-81f4-454f-b843-341308fbe059")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 293.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col5_l"
+		(shape input)
+		(at 487.68 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1f9519d-c977-424c-9e65-38a4d29c11d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.47 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18492,6 +19156,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row5_l"
+		(shape input)
+		(at 487.68 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffc7dd43-876f-40ae-99cd-0ff5d4d5d940")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.47 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -19881,7 +20565,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 424.18 134.62 0)
+		(at 502.92 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19890,7 +20574,7 @@
 		(fields_autoplaced yes)
 		(uuid "07a5446d-6ec0-40c4-9fa1-6e81abee4dab")
 		(property "Reference" "D15"
-			(at 424.18 128.27 0)
+			(at 502.92 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19898,7 +20582,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 424.18 130.81 0)
+			(at 502.92 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19906,7 +20590,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 424.18 134.62 0)
+			(at 502.92 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19915,7 +20599,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 424.18 134.62 0)
+			(at 502.92 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19924,7 +20608,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 424.18 134.62 0)
+			(at 502.92 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19933,7 +20617,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 424.18 134.62 0)
+			(at 502.92 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19950,6 +20634,71 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 496.57 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "083cd1ed-a72c-4e00-82e2-c683152d4390")
+		(property "Reference" "#PWR036"
+			(at 496.57 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 496.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 496.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 496.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 496.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "221649d1-df42-4d9e-b2aa-9f66ad51cca4")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -24025,16 +24774,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 439.42 109.22 0)
+		(at 491.49 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "353468e8-6a4b-41ae-9c6a-6adc0f783803")
 		(property "Reference" "D17"
-			(at 439.42 102.87 0)
+			(at 491.49 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24042,7 +24790,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 439.42 105.41 0)
+			(at 491.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24050,7 +24798,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 439.42 109.22 0)
+			(at 491.49 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24059,7 +24807,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 439.42 109.22 0)
+			(at 491.49 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24068,7 +24816,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 439.42 109.22 0)
+			(at 491.49 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24077,7 +24825,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 439.42 109.22 0)
+			(at 491.49 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24101,7 +24849,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 422.91 107.95 0)
+		(at 502.92 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24110,7 +24858,7 @@
 		(fields_autoplaced yes)
 		(uuid "371564fb-dd9c-43ee-a559-35e0280f3934")
 		(property "Reference" "D12"
-			(at 422.91 101.6 0)
+			(at 502.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24118,7 +24866,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 422.91 104.14 0)
+			(at 502.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24126,7 +24874,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 422.91 107.95 0)
+			(at 502.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24135,7 +24883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 422.91 107.95 0)
+			(at 502.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24144,7 +24892,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 422.91 107.95 0)
+			(at 502.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24153,7 +24901,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 422.91 107.95 0)
+			(at 502.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24462,7 +25210,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 454.66 110.49 0)
+		(at 491.49 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24471,7 +25219,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e012239-ba05-410a-bdde-b4a6afbf3f31")
 		(property "Reference" "D20"
-			(at 454.66 104.14 0)
+			(at 491.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24479,7 +25227,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 454.66 106.68 0)
+			(at 491.49 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24487,7 +25235,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 454.66 110.49 0)
+			(at 491.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24496,7 +25244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 454.66 110.49 0)
+			(at 491.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24505,7 +25253,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 454.66 110.49 0)
+			(at 491.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24514,7 +25262,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 454.66 110.49 0)
+			(at 491.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25491,7 +26239,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 421.64 96.52 0)
+		(at 502.92 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25500,7 +26248,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d7c465f-7a48-443f-9014-97be4a6fc4c0")
 		(property "Reference" "D11"
-			(at 421.64 90.17 0)
+			(at 502.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25508,7 +26256,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 421.64 92.71 0)
+			(at 502.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25516,7 +26264,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 421.64 96.52 0)
+			(at 502.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25525,7 +26273,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 421.64 96.52 0)
+			(at 502.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25534,7 +26282,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 421.64 96.52 0)
+			(at 502.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25543,7 +26291,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 421.64 96.52 0)
+			(at 502.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25764,16 +26512,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 389.89 93.98 0)
+		(at 502.92 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5551329e-11d0-46db-a226-7dfaae6f5ed2")
 		(property "Reference" "D3"
-			(at 389.89 87.63 0)
+			(at 605.79 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25781,7 +26528,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 389.89 90.17 0)
+			(at 502.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25789,7 +26536,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 389.89 93.98 0)
+			(at 502.92 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25798,7 +26545,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 389.89 93.98 0)
+			(at 502.92 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25807,7 +26554,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 389.89 93.98 0)
+			(at 502.92 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25816,7 +26563,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 389.89 93.98 0)
+			(at 502.92 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28235,7 +28982,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 406.4 95.25 0)
+		(at 491.49 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28244,7 +28991,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e053d6e-f6ad-496d-81b6-6d07032afc04")
 		(property "Reference" "D5"
-			(at 406.4 88.9 0)
+			(at 491.49 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28252,7 +28999,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 406.4 91.44 0)
+			(at 491.49 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28260,7 +29007,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 406.4 95.25 0)
+			(at 491.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28269,7 +29016,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 406.4 95.25 0)
+			(at 491.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28278,7 +29025,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 406.4 95.25 0)
+			(at 491.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28287,7 +29034,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 406.4 95.25 0)
+			(at 491.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28669,7 +29416,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 405.13 114.3 0)
+		(at 491.49 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28678,7 +29425,7 @@
 		(fields_autoplaced yes)
 		(uuid "8470f58d-114f-48c4-bdaa-b5bf39cbbfdf")
 		(property "Reference" "D9"
-			(at 405.13 107.95 0)
+			(at 491.49 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28686,7 +29433,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 405.13 110.49 0)
+			(at 491.49 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28694,7 +29441,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 405.13 114.3 0)
+			(at 491.49 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28703,7 +29450,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 405.13 114.3 0)
+			(at 491.49 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28712,7 +29459,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 405.13 114.3 0)
+			(at 491.49 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28721,7 +29468,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 405.13 114.3 0)
+			(at 491.49 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29096,7 +29843,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 420.37 88.9 0)
+		(at 502.92 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29105,7 +29852,7 @@
 		(fields_autoplaced yes)
 		(uuid "889ff385-bd30-4cbf-b151-fb4773d95090")
 		(property "Reference" "D10"
-			(at 420.37 82.55 0)
+			(at 502.92 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29113,7 +29860,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 420.37 85.09 0)
+			(at 502.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29121,7 +29868,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 420.37 88.9 0)
+			(at 502.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29130,7 +29877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 420.37 88.9 0)
+			(at 502.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29139,7 +29886,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 420.37 88.9 0)
+			(at 502.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29148,7 +29895,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 420.37 88.9 0)
+			(at 502.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29721,7 +30468,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 438.15 128.27 0)
+		(at 491.49 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29730,7 +30477,7 @@
 		(fields_autoplaced yes)
 		(uuid "90a3c04b-f930-4dfd-9141-649a7c58d06e")
 		(property "Reference" "D16"
-			(at 438.15 121.92 0)
+			(at 491.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29738,7 +30485,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 438.15 124.46 0)
+			(at 491.49 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29746,7 +30493,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 438.15 128.27 0)
+			(at 491.49 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29755,7 +30502,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 438.15 128.27 0)
+			(at 491.49 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29764,7 +30511,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 438.15 128.27 0)
+			(at 491.49 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29773,7 +30520,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 438.15 128.27 0)
+			(at 491.49 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29862,16 +30609,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 440.69 116.84 0)
+		(at 491.49 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "91a794cb-4e8f-4330-88ee-2c4843f6069f")
 		(property "Reference" "D19"
-			(at 440.69 110.49 0)
+			(at 543.56 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29879,7 +30625,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 440.69 113.03 0)
+			(at 491.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29887,7 +30633,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 440.69 116.84 0)
+			(at 491.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29896,7 +30642,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 440.69 116.84 0)
+			(at 491.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29905,7 +30651,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 440.69 116.84 0)
+			(at 491.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29914,7 +30660,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 440.69 116.84 0)
+			(at 491.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29931,82 +30677,6 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 389.89 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9261c448-6ebc-4613-9843-62f987a72a03")
-		(property "Reference" "D7"
-			(at 389.89 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 389.89 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 389.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 389.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 389.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C355254"
-			(at 389.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1c1d4b3-bae9-49e8-a876-6d62f02e7b40")
-		)
-		(pin "2"
-			(uuid "b4fc27bf-7012-4596-b856-8d0a08dc260e")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -30529,16 +31199,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 455.93 118.11 0)
+		(at 491.49 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b55d274-0ed5-4c88-9b09-e94c133f3245")
 		(property "Reference" "D21"
-			(at 455.93 111.76 0)
+			(at 528.32 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30546,7 +31215,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 455.93 114.3 0)
+			(at 491.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30554,7 +31223,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 455.93 118.11 0)
+			(at 491.49 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30563,7 +31232,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 455.93 118.11 0)
+			(at 491.49 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30572,7 +31241,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 455.93 118.11 0)
+			(at 491.49 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30581,7 +31250,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 455.93 118.11 0)
+			(at 491.49 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31666,7 +32335,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 405.13 87.63 0)
+		(at 502.92 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31675,7 +32344,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5d07a68-49ec-4c82-94b8-3b5be1ebe8fb")
 		(property "Reference" "D4"
-			(at 405.13 81.28 0)
+			(at 502.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31683,7 +32352,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 405.13 83.82 0)
+			(at 502.92 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31691,7 +32360,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 405.13 87.63 0)
+			(at 502.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31700,7 +32369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 405.13 87.63 0)
+			(at 502.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31709,7 +32378,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 405.13 87.63 0)
+			(at 502.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31718,7 +32387,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 405.13 87.63 0)
+			(at 502.92 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34604,7 +35273,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 422.91 127 0)
+		(at 502.92 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34613,7 +35282,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6ac89ff-b7bb-4098-b909-a392b2f24076")
 		(property "Reference" "D13"
-			(at 422.91 120.65 0)
+			(at 502.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34621,7 +35290,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 422.91 123.19 0)
+			(at 502.92 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34629,7 +35298,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 422.91 127 0)
+			(at 502.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34638,7 +35307,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 422.91 127 0)
+			(at 502.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34647,7 +35316,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 422.91 127 0)
+			(at 502.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34656,7 +35325,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 422.91 127 0)
+			(at 502.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35174,7 +35843,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 403.86 106.68 0)
+		(at 491.49 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35183,7 +35852,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf756f6f-fb48-4166-b2a2-185d7e1e2743")
 		(property "Reference" "D8"
-			(at 403.86 100.33 0)
+			(at 491.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35191,7 +35860,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 403.86 102.87 0)
+			(at 491.49 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35199,7 +35868,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 403.86 106.68 0)
+			(at 491.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35208,7 +35877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 403.86 106.68 0)
+			(at 491.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35217,7 +35886,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 403.86 106.68 0)
+			(at 491.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35226,7 +35895,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 403.86 106.68 0)
+			(at 491.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35718,7 +36387,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 388.62 86.36 0)
+		(at 491.49 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35727,7 +36396,7 @@
 		(fields_autoplaced yes)
 		(uuid "da100875-9c63-4042-b3b4-32b2eb7e477b")
 		(property "Reference" "D5085"
-			(at 388.62 80.01 0)
+			(at 491.49 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35735,7 +36404,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 388.62 82.55 0)
+			(at 491.49 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35743,7 +36412,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 388.62 86.36 0)
+			(at 491.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35752,7 +36421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 388.62 86.36 0)
+			(at 491.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35761,7 +36430,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 388.62 86.36 0)
+			(at 491.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35770,7 +36439,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 388.62 86.36 0)
+			(at 491.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36386,82 +37055,6 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 388.62 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd240144-805a-4cba-b353-9bd96ebf56d9")
-		(property "Reference" "D6"
-			(at 388.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 388.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 388.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 388.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 388.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C355254"
-			(at 388.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af894217-d714-4b80-99e9-faf36e7a32ad")
-		)
-		(pin "2"
-			(uuid "40a63a94-1b39-4f1d-be12-b002e0d24bba")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -37220,7 +37813,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 424.18 115.57 0)
+		(at 502.92 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37229,7 +37822,7 @@
 		(fields_autoplaced yes)
 		(uuid "edfe2d69-87cc-495e-86de-a8ee77baeb7e")
 		(property "Reference" "D14"
-			(at 424.18 109.22 0)
+			(at 502.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37237,7 +37830,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 424.18 111.76 0)
+			(at 502.92 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37245,7 +37838,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 424.18 115.57 0)
+			(at 502.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37254,7 +37847,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 424.18 115.57 0)
+			(at 502.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37263,7 +37856,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 424.18 115.57 0)
+			(at 502.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37272,7 +37865,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 424.18 115.57 0)
+			(at 502.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37712,16 +38305,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 439.42 135.89 0)
+		(at 491.49 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fbacf840-c29c-4f6e-8f00-6e1036811b7e")
 		(property "Reference" "D18"
-			(at 439.42 129.54 0)
+			(at 544.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37729,7 +38321,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 439.42 132.08 0)
+			(at 491.49 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37737,7 +38329,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 439.42 135.89 0)
+			(at 491.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37746,7 +38338,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 439.42 135.89 0)
+			(at 491.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37755,7 +38347,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 439.42 135.89 0)
+			(at 491.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37764,7 +38356,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 439.42 135.89 0)
+			(at 491.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
