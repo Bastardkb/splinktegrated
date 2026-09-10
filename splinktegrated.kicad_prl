@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 7,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -39,9 +39,10 @@
       "footprint_references",
       "tracks",
       "pads",
+      "zones",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffffdf5_fff5ff5f",
+    "visible_layers": "00000000_00000000_0ffffdf5_fff5ffff",
     "zone_display_mode": 1
   },
   "git": {

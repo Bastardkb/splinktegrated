@@ -7712,6 +7712,19 @@
 		)
 		(uuid "cf2192b1-6812-48b8-a4e3-5cbf15ab95c0")
 	)
+	(text "Mouse bites"
+		(exclude_from_sim no)
+		(at 403.86 114.3 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d52c9a7a-80eb-444b-bf90-65695be93039")
+	)
 	(text "- Transistor for protection against shorts between power and right_GND (reverse polarity)\n- TVS diode against power surges\n- U2 for ESD protection\n\nOn the serial port, we use a TVS diode instead of Zener (on the main connector)\nto avoid power drop, as power would have to go through 2 Zener - one reversed."
 		(exclude_from_sim no)
 		(at -170.434 377.952 0)
@@ -8451,6 +8464,14 @@
 		(uuid "1588723a-811c-4c2c-9c5d-1d749353d948")
 	)
 	(no_connect
+		(at 424.18 153.67)
+		(uuid "188a82b7-b1b5-4234-9987-7fee4e1f33b0")
+	)
+	(no_connect
+		(at 421.64 153.67)
+		(uuid "23d1112c-5d67-4e47-8bb4-64f52aac449f")
+	)
+	(no_connect
 		(at 182.88 119.38)
 		(uuid "2aa226ed-46b6-4d43-8204-14e404603677")
 	)
@@ -8473,6 +8494,10 @@
 	(no_connect
 		(at 391.16 62.23)
 		(uuid "367de3c2-e8c2-45a9-9893-784e57c77ad8")
+	)
+	(no_connect
+		(at 420.37 146.05)
+		(uuid "38fbe7fe-a3a0-40a4-b6da-ca35cb22ead1")
 	)
 	(no_connect
 		(at -134.62 273.05)
@@ -8499,6 +8524,14 @@
 		(uuid "427c1216-e4e3-438f-a028-4c7616a167a5")
 	)
 	(no_connect
+		(at 425.45 146.05)
+		(uuid "452a7fbc-53cb-4106-85d0-db2b795457cb")
+	)
+	(no_connect
+		(at 430.53 146.05)
+		(uuid "4ccc262f-04b5-4c38-80ca-e3760048a829")
+	)
+	(no_connect
 		(at 201.93 363.22)
 		(uuid "50fe75ce-7bd9-4220-b7ee-37791ac10e88")
 	)
@@ -8515,6 +8548,18 @@
 		(uuid "600a6a29-5ada-4839-a100-0eb392f44d95")
 	)
 	(no_connect
+		(at 420.37 124.46)
+		(uuid "636fc622-9ddc-4caa-8ac9-2649e19eefe3")
+	)
+	(no_connect
+		(at 408.94 154.94)
+		(uuid "765b7522-5c7b-4eee-a454-d52d21736e37")
+	)
+	(no_connect
+		(at 414.02 146.05)
+		(uuid "7c4af1f0-e917-4b2c-b60a-27bcd31d2fd1")
+	)
+	(no_connect
 		(at -39.37 297.18)
 		(uuid "88548233-339f-4e00-8bd1-2f56bf49a13c")
 	)
@@ -8527,8 +8572,36 @@
 		(uuid "905b016f-bef8-472f-81b6-661d94eddee1")
 	)
 	(no_connect
+		(at 427.99 153.67)
+		(uuid "a34f0c11-4fad-43df-a099-e7f7141a7f2e")
+	)
+	(no_connect
+		(at 424.18 134.62)
+		(uuid "a503f5a1-8385-4197-9371-63af43b5ff22")
+	)
+	(no_connect
+		(at 415.29 153.67)
+		(uuid "a54b7d09-d6ee-47da-947f-f215430d130f")
+	)
+	(no_connect
 		(at 201.93 360.68)
 		(uuid "b6080dc2-f5cd-4bf9-97b9-f9f2a612fdff")
+	)
+	(no_connect
+		(at 408.94 124.46)
+		(uuid "c485d20e-6d10-4238-9ab8-34668b784715")
+	)
+	(no_connect
+		(at 414.02 124.46)
+		(uuid "c99a5666-77ca-49c3-adaa-d1e451c65710")
+	)
+	(no_connect
+		(at 425.45 124.46)
+		(uuid "ce6ee819-dcbc-4f78-8a32-a1e27c077f1a")
+	)
+	(no_connect
+		(at 417.83 153.67)
+		(uuid "d0320116-0ae1-4a1e-adda-c4ca91d8e902")
 	)
 	(no_connect
 		(at -58.42 53.34)
@@ -8549,6 +8622,18 @@
 	(no_connect
 		(at 391.16 67.31)
 		(uuid "ed50d07f-42d4-4789-8b32-ed00f8ecc305")
+	)
+	(no_connect
+		(at 417.83 134.62)
+		(uuid "f5892f39-4815-4a48-8831-92dd54d8997e")
+	)
+	(no_connect
+		(at 408.94 146.05)
+		(uuid "f73a124b-3cfd-4558-97df-2fed5ffd8d71")
+	)
+	(no_connect
+		(at 411.48 134.62)
+		(uuid "f8d75ff0-5844-49e6-9137-c8ee75e8a82a")
 	)
 	(wire
 		(pts
@@ -11190,6 +11275,16 @@
 		)
 		(uuid "69323089-050f-4fa1-8478-36f1423aa7b7")
 	)
+	(polyline
+		(pts
+			(xy 435.61 114.3) (xy 435.61 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c6538b-4de1-40db-894e-76c04dfef055")
+	)
 	(wire
 		(pts
 			(xy -20.32 25.4) (xy -15.24 25.4)
@@ -11539,6 +11634,16 @@
 			(type default)
 		)
 		(uuid "7686e80d-f38f-417d-b44d-8d63a4646cb8")
+	)
+	(polyline
+		(pts
+			(xy 435.61 158.75) (xy 403.86 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771b2db0-9791-43fa-84c2-dbdc9d0fe03b")
 	)
 	(wire
 		(pts
@@ -13950,6 +14055,16 @@
 		)
 		(uuid "e0a32dec-c39b-49c5-aa6c-c1196f3ea75c")
 	)
+	(polyline
+		(pts
+			(xy 403.86 114.3) (xy 435.61 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1623e0e-fafa-488c-b46e-059bc4883353")
+	)
 	(wire
 		(pts
 			(xy 162.56 279.4) (xy 162.56 281.94)
@@ -14169,6 +14284,16 @@
 			(type default)
 		)
 		(uuid "e8779b84-2b00-4a39-a625-ad10eab35964")
+	)
+	(polyline
+		(pts
+			(xy 403.86 114.3) (xy 403.86 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96ed255-057f-4143-bcab-46ecc4e4998e")
 	)
 	(wire
 		(pts
@@ -20078,6 +20203,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 417.83 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "07339090-4767-43c7-aec2-4b839ee9ae8b")
+		(property "Reference" "H5023"
+			(at 416.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 416.56 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite_small"
+			(at 417.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 417.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 417.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "534264aa-4cf6-4179-bbb0-f2afc73d23db")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi_RP2040:RP2040")
 		(at 154.94 91.44 0)
 		(unit 1)
@@ -20565,7 +20756,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 502.92 124.46 0)
+		(at 502.92 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20574,7 +20765,7 @@
 		(fields_autoplaced yes)
 		(uuid "07a5446d-6ec0-40c4-9fa1-6e81abee4dab")
 		(property "Reference" "D15"
-			(at 502.92 118.11 0)
+			(at 502.92 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20582,7 +20773,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 502.92 120.65 0)
+			(at 502.92 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20617,7 +20808,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 502.92 124.46 0)
+			(at 502.92 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20998,7 +21189,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 461.01 358.14 0)
+		(at 461.01 358.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21007,7 +21198,7 @@
 		(fields_autoplaced yes)
 		(uuid "09334a65-a481-41e6-a529-acad6a2d5c4c")
 		(property "Reference" "D28"
-			(at 461.01 351.79 0)
+			(at 461.01 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21015,7 +21206,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 461.01 354.33 0)
+			(at 461.01 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21050,7 +21241,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 461.01 358.14 0)
+			(at 461.01 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21344,6 +21535,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 421.64 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0a9bef02-198d-4fdf-8866-e309b99c7a03")
+		(property "Reference" "H5027"
+			(at 420.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 420.37 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite_small"
+			(at 421.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 421.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 421.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f96e2944-bc31-4b27-9ba8-72e311311db2")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 43.815 427.99 0)
 		(unit 1)
@@ -21468,6 +21725,72 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 408.94 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0bfe51bc-c6e5-4003-ab2c-362562374021")
+		(property "Reference" "H5008"
+			(at 407.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 407.67 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 408.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 408.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 408.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ee6d97f-d53e-4948-ae49-4495829bf729")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5008")
 					(unit 1)
 				)
 			)
@@ -21956,6 +22279,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 408.94 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "10ee3ad6-066f-4976-bc59-b087b9455e86")
+		(property "Reference" "H5012"
+			(at 407.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 407.67 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 408.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 408.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 408.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e26442f7-07a8-484f-a803-e71b16540a13")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 449.58 358.14 0)
 		(unit 1)
@@ -22345,6 +22734,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 425.45 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "1635004a-730d-4d88-93df-97a6a24daef8")
+		(property "Reference" "H5011"
+			(at 424.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 424.18 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 425.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 425.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 425.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0865617c-3e06-473f-a135-292a0f22d7f5")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at -151.13 97.79 0)
 		(unit 1)
@@ -22544,7 +22999,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 461.01 334.01 0)
+		(at 461.01 334.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22552,7 +23007,7 @@
 		(dnp no)
 		(uuid "1dae1592-7fb8-4384-9f94-f92279e9fb04")
 		(property "Reference" "D22"
-			(at 461.01 327.66 0)
+			(at 461.01 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22560,7 +23015,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 461.01 330.2 0)
+			(at 461.01 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24457,6 +24912,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 425.45 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "325337ed-d8f0-4766-b7f0-e38502a443e3")
+		(property "Reference" "H5015"
+			(at 424.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 424.18 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 425.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 425.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 425.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08e6db77-7a5d-4afc-9bd4-47a317737fc9")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at -19.05 274.32 0)
 		(unit 1)
@@ -24849,7 +25370,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 502.92 96.52 0)
+		(at 502.92 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24858,7 +25379,7 @@
 		(fields_autoplaced yes)
 		(uuid "371564fb-dd9c-43ee-a559-35e0280f3934")
 		(property "Reference" "D12"
-			(at 502.92 90.17 0)
+			(at 502.92 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24866,7 +25387,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 502.92 92.71 0)
+			(at 502.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24901,7 +25422,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 502.92 96.52 0)
+			(at 502.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25589,6 +26110,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 411.48 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "42686b10-355f-40e2-8cd7-6fb34848d323")
+		(property "Reference" "H5022"
+			(at 410.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 410.21 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite_small"
+			(at 411.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 411.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "698b2b6f-c4ff-44b3-bb37-be2b2eb70f9d")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 52.07 350.52 0)
 		(unit 1)
@@ -25648,6 +26235,72 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 408.94 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "4741806d-77eb-42e9-8412-64a9c0614b95")
+		(property "Reference" "H5017"
+			(at 407.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 407.67 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite_small"
+			(at 408.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 408.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 408.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd965b9f-5022-4545-8b5a-81f11a3138af")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5017")
 					(unit 1)
 				)
 			)
@@ -26238,8 +26891,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 414.02 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "4d5402c5-b267-49ed-a27b-6595f3d11fb4")
+		(property "Reference" "H5009"
+			(at 412.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 412.75 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 414.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 414.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 414.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "111a795f-7c1d-4514-805c-973020f64b92")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
-		(at 502.92 90.17 0)
+		(at 502.92 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26248,7 +26967,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d7c465f-7a48-443f-9014-97be4a6fc4c0")
 		(property "Reference" "D11"
-			(at 502.92 83.82 0)
+			(at 502.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26256,7 +26975,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 502.92 86.36 0)
+			(at 502.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26291,7 +27010,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 502.92 90.17 0)
+			(at 502.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28150,6 +28869,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 417.83 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "70e479ba-3736-4f87-b829-d5d44b1184b7")
+		(property "Reference" "H5020"
+			(at 416.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 416.56 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite_small"
+			(at 417.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 417.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 417.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58d02b70-8f9b-4240-b040-fcca42f0eff4")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 49.53 205.105 0)
 		(unit 1)
@@ -28775,7 +29560,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 461.01 345.44 0)
+		(at 461.01 345.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29275,7 +30060,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 461.01 339.09 0)
+		(at 461.01 339.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29284,7 +30069,7 @@
 		(fields_autoplaced yes)
 		(uuid "829aa385-bf0b-4c0b-8f70-a0fa2d722675")
 		(property "Reference" "D24"
-			(at 461.01 332.74 0)
+			(at 461.01 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29292,7 +30077,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 461.01 335.28 0)
+			(at 461.01 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29327,7 +30112,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 461.01 339.09 0)
+			(at 461.01 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29843,7 +30628,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 502.92 85.09 0)
+		(at 502.92 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29852,7 +30637,7 @@
 		(fields_autoplaced yes)
 		(uuid "889ff385-bd30-4cbf-b151-fb4773d95090")
 		(property "Reference" "D10"
-			(at 502.92 78.74 0)
+			(at 502.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29860,7 +30645,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 502.92 81.28 0)
+			(at 502.92 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29895,7 +30680,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 502.92 85.09 0)
+			(at 502.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30677,6 +31462,72 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 424.18 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "94af6d62-78b6-492a-8c32-bf786b121276")
+		(property "Reference" "H5021"
+			(at 422.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 422.91 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite_small"
+			(at 424.18 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 424.18 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 424.18 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "101a045e-5048-448b-a7dc-cf16e606bb48")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5021")
 					(unit 1)
 				)
 			)
@@ -32253,6 +33104,72 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 420.37 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a5215e77-2ad9-4546-a127-aa7454e6544f")
+		(property "Reference" "H5010"
+			(at 419.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 419.1 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 420.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 420.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 420.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3305458-e8a3-4c31-936a-e63617a24d17")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5010")
 					(unit 1)
 				)
 			)
@@ -35414,6 +36331,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 415.29 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c9171942-a8d2-4979-8a57-fbed12f48cdb")
+		(property "Reference" "H5026"
+			(at 414.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 414.02 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite_small"
+			(at 415.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 415.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3e2f700-0a68-46f7-a768-8b01311aba9c")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 430.53 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c922c878-5410-42bd-8b75-edc49618112e")
+		(property "Reference" "H5016"
+			(at 429.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 429.26 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite_small"
+			(at 430.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 430.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 430.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5975f2d-93a2-4a2f-8060-07425c09c6f8")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 139.7 180.34 0)
 		(unit 1)
@@ -35701,7 +36750,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 461.01 373.38 0)
+		(at 461.01 373.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35710,7 +36759,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc59d13e-6945-4cb7-a619-500cfa1bed88")
 		(property "Reference" "D29"
-			(at 461.01 367.03 0)
+			(at 461.01 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35719,7 +36768,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 461.01 369.57 0)
+			(at 461.01 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35755,7 +36804,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 461.01 373.38 0)
+			(at 461.01 369.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35978,6 +37027,138 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 424.18 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "cfc9a66d-b273-4e29-a696-47383f628adb")
+		(property "Reference" "H5024"
+			(at 422.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 422.91 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite_small"
+			(at 424.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 424.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 424.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3368647-50d9-4876-a50b-3f058047f612")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 414.02 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "d036d39b-8e99-448e-9aaa-1cd310e3d7f9")
+		(property "Reference" "H5013"
+			(at 412.75 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 412.75 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 414.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 414.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 414.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "250f993e-296f-44fe-a16c-9278bfc5829f")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5013")
 					(unit 1)
 				)
 			)
@@ -36315,6 +37496,72 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 420.37 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "d8cd0bcd-706b-4728-97c9-a729e73a0314")
+		(property "Reference" "H5014"
+			(at 419.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 419.1 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 420.37 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 420.37 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 420.37 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0b8b7b8-b0aa-49b9-a376-5865711322ae")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5014")
 					(unit 1)
 				)
 			)
@@ -37149,6 +38396,72 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
+		(at 427.99 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "e22d5448-fa80-444a-a012-fbb2dfe4c3a7")
+		(property "Reference" "H5025"
+			(at 426.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 426.72 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite_small"
+			(at 427.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 427.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 427.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2711cc3b-afe0-43ef-9c4b-520ef67897bf")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 52.07 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37477,7 +38790,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 461.01 351.79 0)
+		(at 461.01 351.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37486,7 +38799,7 @@
 		(fields_autoplaced yes)
 		(uuid "e588c462-bb3c-4790-8dc1-9af2dc38aa57")
 		(property "Reference" "D25"
-			(at 461.01 345.44 0)
+			(at 461.01 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37494,7 +38807,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 461.01 347.98 0)
+			(at 461.01 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37529,7 +38842,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 461.01 351.79 0)
+			(at 461.01 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37813,7 +39126,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 502.92 102.87 0)
+		(at 502.92 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37822,7 +39135,7 @@
 		(fields_autoplaced yes)
 		(uuid "edfe2d69-87cc-495e-86de-a8ee77baeb7e")
 		(property "Reference" "D14"
-			(at 502.92 96.52 0)
+			(at 502.92 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37830,7 +39143,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 502.92 99.06 0)
+			(at 502.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37865,7 +39178,7 @@
 			)
 		)
 		(property "LCSC" "C355254"
-			(at 502.92 102.87 0)
+			(at 502.92 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
