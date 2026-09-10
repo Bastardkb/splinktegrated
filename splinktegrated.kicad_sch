@@ -32486,6 +32486,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at -132.08 318.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a78e050f-97ab-4992-8453-4efa0ca79d47")
+		(property "Reference" "#PWR0116"
+			(at -132.08 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "right_VBUS"
+			(at -132.08 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -132.08 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -132.08 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -132.08 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8901ea9c-cc7b-4c20-bf9f-91cd4696f6a6")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x14_Female")
 		(at 415.29 290.83 0)
 		(unit 1)
@@ -34248,71 +34313,6 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "D31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at -151.13 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb74a504-e602-425e-b442-6d1ba3b7c66a")
-		(property "Reference" "#PWR030"
-			(at -151.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at -151.13 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -151.13 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -151.13 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -151.13 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5bc0dc44-f6c0-4e95-a871-d1a5907ae021")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -36802,71 +36802,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at -132.08 318.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc8ce603-182e-4dad-9034-5068d84a0cfc")
-		(property "Reference" "#PWR052"
-			(at -132.08 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "right_+3V3"
-			(at -132.08 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -132.08 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -132.08 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -132.08 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3eba4eb-f240-47a4-857c-14f8641c1a7e")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 332.74 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37611,6 +37546,71 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at -151.13 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6d0f437-d8b2-4fd5-8e29-291b821a85cd")
+		(property "Reference" "#PWR0115"
+			(at -151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at -151.13 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -151.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -151.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -151.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cc31e52-8c8e-45f9-9817-6abf14d8577f")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
